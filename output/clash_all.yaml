@@ -47,7 +47,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6047
+    port: 6033
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -56,7 +56,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6035
+    port: 6049
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -65,25 +65,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6010
-    uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 广东省东莞市 电信IDC机房 - undefinedms
-    type: vmess
-    server: cn02.365cloud5878.com
-    port: 6027
+    port: 6040
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -92,7 +74,25 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6001
+    port: 6005
+    uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 伦敦Virgin Media - undefinedms
+    type: vmess
+    server: 82.21.80.224
+    port: 17310
+    uuid: 656920dc-ed05-4f41-8c49-bdff41e383a9
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: none
+  - name: 广东省东莞市 电信IDC机房 - undefinedms
+    type: vmess
+    server: cn02.365cloud5878.com
+    port: 6019
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -110,7 +110,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6052
+    port: 6021
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -119,7 +119,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6004
+    port: 6031
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -128,7 +128,7 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6030
+    port: 6046
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
@@ -137,35 +137,17 @@ proxies:
   - name: 广东省东莞市 电信IDC机房 - undefinedms
     type: vmess
     server: cn02.365cloud5878.com
-    port: 6022
+    port: 6003
     uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 广东省东莞市 电信IDC机房 - undefinedms
-    type: vmess
-    server: cn02.365cloud5878.com
-    port: 6026
-    uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_2|1.5MB/s - undefinedms
+  - name: 🇺🇸US_4|1.1MB/s - undefinedms
     type: vmess
     server: planb.mojcn.com
-    port: 16632
-    uuid: c6152124-47b2-475f-867a-7c7f11424f38
+    port: 16648
+    uuid: 029db9dc-c42d-468b-bda5-3224927d8c89
     alterId: 0
     cipher: auto
     tls: false
@@ -173,59 +155,7 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: dd6d6c5547a5433b345f58beabb719d0.mobgslb.tbcache.com
-  - name: 🇫🇷FR_1|1.7MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16645
-    uuid: c6152124-47b2-475f-867a-7c7f11424f38
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: dd6d6c5547a5433b345f58beabb719d0.mobgslb.tbcache.com
-  - name: 🇸🇬SG_4|1.5MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: 5473c5aa-0091-4f14-81ec-af3f2827f608
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d1f51b7747dc55e19ac9ef8c6e941480.mobgslb.tbcache.com
-  - name: 🇹🇼TW_1|1.2MB/s - undefinedms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16616
-    uuid: 5473c5aa-0091-4f14-81ec-af3f2827f608
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d1f51b7747dc55e19ac9ef8c6e941480.mobgslb.tbcache.com
-  - name: 🇫🇷FR_2|1.1MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16645
-    uuid: 5473c5aa-0091-4f14-81ec-af3f2827f608
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d1f51b7747dc55e19ac9ef8c6e941480.mobgslb.tbcache.com
+        Host: 98564a637e1e476f33c3372987770183.mobgslb.tbcache.com
   - name: 🇨🇳_中国 - undefinedms
     type: vmess
     server: v12.hdacd.com
@@ -2333,21 +2263,15 @@ proxy-groups:
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 广东省东莞市 电信IDC机房 - undefinedms
+      - 英国 伦敦Virgin Media - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
-      - 广东省东莞市 电信IDC机房 - undefinedms
-      - 广东省东莞市 电信IDC机房 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 🇭🇰HK_2|1.5MB/s - undefinedms
-      - 🇫🇷FR_1|1.7MB/s - undefinedms
-      - 🇸🇬SG_4|1.5MB/s - undefinedms
-      - 🇹🇼TW_1|1.2MB/s - undefinedms
-      - 🇫🇷FR_2|1.1MB/s - undefinedms
+      - 🇺🇸US_4|1.1MB/s - undefinedms
       - 🇨🇳_中国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇨🇳_中国 - undefinedms
@@ -2524,21 +2448,15 @@ proxy-groups:
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
+      - 广东省东莞市 电信IDC机房 - undefinedms
+      - 英国 伦敦Virgin Media - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
       - 广东省东莞市 电信IDC机房 - undefinedms
-      - 广东省东莞市 电信IDC机房 - undefinedms
-      - 广东省东莞市 电信IDC机房 - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
-      - 🇭🇰HK_2|1.5MB/s - undefinedms
-      - 🇫🇷FR_1|1.7MB/s - undefinedms
-      - 🇸🇬SG_4|1.5MB/s - undefinedms
-      - 🇹🇼TW_1|1.2MB/s - undefinedms
-      - 🇫🇷FR_2|1.1MB/s - undefinedms
+      - 🇺🇸US_4|1.1MB/s - undefinedms
       - 🇨🇳_中国 - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇨🇳_中国 - undefinedms
