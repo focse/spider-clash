@@ -47,13 +47,13 @@ proxies:
   - name: 亚太地区 V2CROSS.COM - undefinedms
     type: vmess
     server: 103.181.164.145
-    port: 54022
+    port: 51556
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 广东省佛山市 联通 - undefinedms
+  - name: 广东省东莞市 联通 - undefinedms
     type: vmess
     server: cn01.365cloud8754.com
     port: 6001
@@ -62,24 +62,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 V2CROSS.COM - undefinedms
+  - name: 美国 亚特兰大 - undefinedms
     type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    server: t.cnmjcn.cyou
+    port: 16632
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 亚太地区 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 103.181.164.145
-    port: 51556
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: v33.hdacd.com
@@ -1889,6 +1884,97 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇯🇵JP_1|3.6MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16617
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇮🇳IN_1|1.1MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16626
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇹🇼TW_1|1009KB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16616
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇸🇬SG_3|3.7MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇸🇬SG_5|2.1MB/s - undefinedms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇺🇸US_4|1.3MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16648
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
+  - name: 🇹🇼TW_3|3.2MB/s - undefinedms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16616
+    uuid: dbe3102c-5e26-4b5f-82eb-493ae07e758c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 437dfed94cb7943bb6f7f93ccf00a561.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -2032,89 +2118,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇯🇵JP_2|1.0MB/s - undefinedms
-    type: vmess
-    server: c32s4.portablesubmarines.com
-    port: 5755
-    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇨🇦CA_1|2.1MB/s - undefinedms
-    type: vmess
-    server: c32s5.portablesubmarines.com
-    port: 5755
-    uuid: 70181e68-9ec6-4007-837e-86b28746c2dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇸🇬SG_3|2.6MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: 42355be2-af61-4b3b-866c-d3c5ea8748c5
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: febce1d29a8a4c68e016e0bec83fa245.mobgslb.tbcache.com
-  - name: 🇸🇬SG_4|2.6MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
-  - name: 🇭🇰HK_1|1.4MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16622
-    uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
-  - name: 🇫🇷FR_1|1.2MB/s - undefinedms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16645
-    uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
-  - name: 🇫🇷FR_2|1.0MB/s - undefinedms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16645
-    uuid: 8fe47794-bb25-446c-a1f7-7408a1d0b9c3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 7b30e34ac69c2cef7dbe9bd6e2484f6f.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -2448,9 +2451,8 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 广东省佛山市 联通 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
+      - 广东省东莞市 联通 - undefinedms
+      - 美国 亚特兰大 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 日期：03-19 - undefinedms
@@ -2595,6 +2597,13 @@ proxy-groups:
       - 🇨🇳_中国 - undefinedms
       - 🇨🇳_中国 - undefinedms
       - 🇨🇳_中国 - undefinedms
+      - 🇯🇵JP_1|3.6MB/s - undefinedms
+      - 🇮🇳IN_1|1.1MB/s - undefinedms
+      - 🇹🇼TW_1|1009KB/s - undefinedms
+      - 🇸🇬SG_3|3.7MB/s - undefinedms
+      - 🇸🇬SG_5|2.1MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇹🇼TW_3|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2606,13 +2615,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇯🇵JP_2|1.0MB/s - undefinedms
-      - 🇨🇦CA_1|2.1MB/s - undefinedms
-      - 🇸🇬SG_3|2.6MB/s - undefinedms
-      - 🇸🇬SG_4|2.6MB/s - undefinedms
-      - 🇭🇰HK_1|1.4MB/s - undefinedms
-      - 🇫🇷FR_1|1.2MB/s - undefinedms
-      - 🇫🇷FR_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -2648,9 +2650,8 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 亚太地区 V2CROSS.COM - undefinedms
-      - 广东省佛山市 联通 - undefinedms
-      - 英国 V2CROSS.COM - undefinedms
-      - 亚太地区 V2CROSS.COM - undefinedms
+      - 广东省东莞市 联通 - undefinedms
+      - 美国 亚特兰大 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 日期：03-19 - undefinedms
@@ -2795,6 +2796,13 @@ proxy-groups:
       - 🇨🇳_中国 - undefinedms
       - 🇨🇳_中国 - undefinedms
       - 🇨🇳_中国 - undefinedms
+      - 🇯🇵JP_1|3.6MB/s - undefinedms
+      - 🇮🇳IN_1|1.1MB/s - undefinedms
+      - 🇹🇼TW_1|1009KB/s - undefinedms
+      - 🇸🇬SG_3|3.7MB/s - undefinedms
+      - 🇸🇬SG_5|2.1MB/s - undefinedms
+      - 🇺🇸US_4|1.3MB/s - undefinedms
+      - 🇹🇼TW_3|3.2MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -2806,13 +2814,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇯🇵JP_2|1.0MB/s - undefinedms
-      - 🇨🇦CA_1|2.1MB/s - undefinedms
-      - 🇸🇬SG_3|2.6MB/s - undefinedms
-      - 🇸🇬SG_4|2.6MB/s - undefinedms
-      - 🇭🇰HK_1|1.4MB/s - undefinedms
-      - 🇫🇷FR_1|1.2MB/s - undefinedms
-      - 🇫🇷FR_2|1.0MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
