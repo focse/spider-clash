@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,19 +44,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
   - name: 中国 V2CROSS.COM - undefinedms
     type: vmess
     server: v12.hdacd.com
@@ -53,32 +53,15 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 中国 阿里云 - undefinedms
+  - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 8.223.63.189
-    port: 443
-    uuid: 462d9694-62b5-4781-a287-61a422b920e8
+    server: 82.198.246.97
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /vvip
-      headers:
-        Host: 8.223.63.189
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1.620720.xyz
+    tls: false
+    network: tcp
   - name: 电报群：https://t.me/vvkj11 - undefinedms
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -1054,12 +1037,11 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 中国 V2CROSS.COM - undefinedms
-      - 中国 阿里云 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇫🇷_法国 - undefinedms
@@ -1144,12 +1126,11 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
       - 中国 V2CROSS.COM - undefinedms
-      - 中国 阿里云 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 免费VPN：https://tt.vg/OWeaF - undefinedms
       - 🇫🇷_法国 - undefinedms
