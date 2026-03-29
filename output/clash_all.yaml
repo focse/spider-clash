@@ -44,32 +44,15 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
+  - name: 伊朗 V2CROSS.COM - undefinedms
     type: vmess
-    server: t1.620720.xyz
-    port: 8443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: t1.620720.xyz
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: sy4.620720.xyz
-    port: 443
-    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: sy4.620720.xyz
+    tls: false
+    network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
     server: 82.198.246.97
@@ -79,9 +62,22 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 巴西圣保罗 CloudFlare节点 - undefinedms
+  - name: 美国 CloudFlare节点 - undefinedms
     type: vmess
-    server: 188.114.96.3
+    server: c7.620720.xyz
+    port: 8443
+    uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: c7.620720.xyz
+  - name: 美国 CloudFlare节点 - undefinedms
+    type: vmess
+    server: sy4.620720.xyz
     port: 443
     uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
     alterId: 0
@@ -937,32 +933,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸US_6|1.9MB/s - undefinedms
-    type: vmess
-    server: hk18.stimaysmhy8.com
-    port: 51254
-    uuid: 71165393-5252-4fea-ac96-c36b508720c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: hk18.stimaysmhy8.com
-  - name: 🇬🇧GB_1|1.7MB/s - undefinedms
-    type: vmess
-    server: gb01.jsylianjie5.com
-    port: 45712
-    uuid: 71165393-5252-4fea-ac96-c36b508720c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: gb01.jsylianjie5.com
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -1113,10 +1083,10 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
@@ -1185,8 +1155,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸US_6|1.9MB/s - undefinedms
-      - 🇬🇧GB_1|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1207,10 +1175,10 @@ proxy-groups:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 伊朗 V2CROSS.COM - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 巴西圣保罗 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
+      - 美国 CloudFlare节点 - undefinedms
       - 美国 CloudFlare节点 - undefinedms
       - 电报群：https://t.me/vvkj11 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
@@ -1279,8 +1247,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇺🇸US_6|1.9MB/s - undefinedms
-      - 🇬🇧GB_1|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
