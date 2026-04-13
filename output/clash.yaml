@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG-@vvkj11 - 12ms
+  - name: TG-@vvkj11 - 6ms
     type: vmess
     server: 23.227.39.11
     port: 8080
@@ -18,43 +18,7 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 英国 V2CROSS.COM - 45ms
-    type: vmess
-    server: 82.198.246.97
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 伊朗 V2CROSS.COM - 445ms
-    type: vmess
-    server: v30.hdacd.com
-    port: 30830
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 45ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 英国 V2CROSS.COM - 46ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 13ms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 6ms
     type: vmess
     server: 45.80.111.9
     port: 2082
@@ -67,7 +31,16 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇬🇧_英国 - 47ms
+  - name: 🇭🇰HK_2|2.6MB/s - 369ms
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇬🇧_英国 - 68ms
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -76,7 +49,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇷_伊朗 - 379ms
+  - name: 🇮🇷_伊朗 - 353ms
     type: vmess
     server: v12.hdacd.com
     port: 30812
@@ -85,7 +58,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇷_伊朗 - 378ms
+  - name: 🇮🇷_伊朗 - 355ms
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -94,7 +67,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇬🇧_英国 - 52ms
+  - name: 🇬🇧_英国 - 68ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -103,16 +76,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇮🇷_伊朗 - 179ms
-    type: vmess
-    server: 151.242.180.91
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇬🇧_英国 - 45ms
+  - name: 🇬🇧_英国 - 70ms
     type: vmess
     server: 82.198.246.46
     port: 180
@@ -130,7 +94,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: _未知 - 23ms
+  - name: _未知 - 146ms
     type: vmess
     server: cloudflare-dns.com
     port: 80
@@ -143,7 +107,7 @@ proxies:
       path: /
       headers:
         Host: q.ikez.dpdns.org
-  - name: 🇺🇸_美国 - 24ms
+  - name: 🇺🇸_美国 - 11ms
     type: vmess
     server: vc.fly.dev
     port: 443
@@ -156,7 +120,7 @@ proxies:
       path: /vc
       headers:
         Host: vc.fly.dev
-  - name: 🇫🇷_法国 - 261ms
+  - name: 🇫🇷_法国 - 233ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16617
@@ -169,7 +133,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 411ms
+  - name: 🇫🇷_法国 - 447ms
     type: vmess
     server: m.cnmjin.net
     port: 16644
@@ -182,7 +146,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 378ms
+  - name: 🇫🇷_法国 - 233ms
     type: vmess
     server: planb.mojcn.com
     port: 16617
@@ -195,7 +159,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 378ms
+  - name: 🇫🇷_法国 - 234ms
     type: vmess
     server: planb.mojcn.com
     port: 16622
@@ -208,7 +172,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 279ms
+  - name: 🇫🇷_法国 - 233ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16648
@@ -221,7 +185,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 377ms
+  - name: 🇫🇷_法国 - 233ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16618
@@ -234,7 +198,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 309ms
+  - name: 🇫🇷_法国 - 324ms
     type: vmess
     server: m.cnmjin.net
     port: 16617
@@ -247,7 +211,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 307ms
+  - name: 🇫🇷_法国 - 279ms
     type: vmess
     server: planb.mojcn.com
     port: 16626
@@ -260,7 +224,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 309ms
+  - name: 🇫🇷_法国 - 334ms
     type: vmess
     server: m.cnmjin.net
     port: 16632
@@ -273,7 +237,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 318ms
+  - name: 🇫🇷_法国 - 334ms
     type: vmess
     server: m.cnmjin.net
     port: 16622
@@ -286,7 +250,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 293ms
+  - name: 🇫🇷_法国 - 334ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16622
@@ -299,7 +263,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 320ms
+  - name: 🇫🇷_法国 - 336ms
     type: vmess
     server: m.cnmjin.net
     port: 16645
@@ -312,7 +276,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 321ms
+  - name: 🇫🇷_法国 - 334ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16616
@@ -325,7 +289,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 334ms
+  - name: 🇫🇷_法国 - 336ms
     type: vmess
     server: m.cnmjin.net
     port: 16648
@@ -338,7 +302,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 334ms
+  - name: 🇫🇷_法国 - 337ms
     type: vmess
     server: m.cnmjin.net
     port: 16618
@@ -351,7 +315,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 320ms
+  - name: 🇫🇷_法国 - 336ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16632
@@ -364,7 +328,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 333ms
+  - name: 🇫🇷_法国 - 536ms
     type: vmess
     server: m.cnmjin.net
     port: 16616
@@ -377,7 +341,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 372ms
+  - name: 🇫🇷_法国 - 353ms
     type: vmess
     server: planb.mojcn.com
     port: 16645
@@ -390,7 +354,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 351ms
+  - name: 🇫🇷_法国 - 353ms
     type: vmess
     server: planb.mojcn.com
     port: 16632
@@ -403,7 +367,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 353ms
+  - name: 🇫🇷_法国 - 537ms
     type: vmess
     server: m.cnmjin.net
     port: 16641
@@ -416,7 +380,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 373ms
+  - name: 🇫🇷_法国 - 586ms
     type: vmess
     server: planb.mojcn.com
     port: 16641
@@ -429,7 +393,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 375ms
+  - name: 🇫🇷_法国 - 585ms
     type: vmess
     server: planb.mojcn.com
     port: 16644
@@ -442,7 +406,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 144ms
+  - name: 🇫🇷_法国 - 177ms
     type: vmess
     server: planb.mojcn.com
     port: 16618
@@ -455,7 +419,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 218ms
+  - name: 🇫🇷_法国 - 235ms
     type: vmess
     server: planb.mojcn.com
     port: 16648
@@ -468,7 +432,7 @@ proxies:
       path: /
       headers:
         Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: _未知 - 13ms
+  - name: _未知 - 6ms
     type: vmess
     server: 1.1.1.1
     port: 443
@@ -481,7 +445,7 @@ proxies:
       path: /
       headers:
         Host: www.bing.com
-  - name: 🇫🇷_法国 - 191ms
+  - name: 🇫🇷_法国 - 93ms
     type: vmess
     server: planb.mojcn.com
     port: 16617
@@ -494,477 +458,464 @@ proxies:
       path: /
       headers:
         Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 249ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 192ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16617
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 207ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 248ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 202ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16618
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 743ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16632
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 220ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16632
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 124ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16632
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 148ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 145ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16622
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 124ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16622
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 143ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16626
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 146ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16616
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 220ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16616
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 145ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16616
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 145ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16648
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 222ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16648
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 219ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16648
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 222ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16641
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 223ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16641
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 220ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16641
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 222ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16644
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 243ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16644
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 221ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16645
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 242ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16645
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 242ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16645
-    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 146ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16617
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 138ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16617
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 144ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16617
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16618
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16618
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16618
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 141ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16632
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 170ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16632
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 146ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16632
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 169ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16622
-    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
   - name: 🇫🇷_法国 - 149ms
     type: vmess
     server: m.cnmjin.net
+    port: 16617
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 95ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16617
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 195ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 150ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 150ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16618
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 195ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16632
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 196ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 195ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16632
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 351ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16622
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 347ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16622
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 349ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16622
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 351ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16626
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 352ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16616
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 461ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16616
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 351ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16616
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 462ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16648
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 461ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16648
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 351ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16648
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 461ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16641
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 467ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16641
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 461ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16641
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 463ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16644
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 462ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16644
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 463ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16645
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 464ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16645
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 467ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16645
+    uuid: 46d25c9d-2ef6-4abd-972c-60d7916144b6
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: e8b8e774c860237c2404383038697654.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 501ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16617
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 502ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16617
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 195ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16617
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 243ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16618
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 699ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16618
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 243ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16618
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 242ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16632
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 264ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16632
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 243ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16632
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 243ms
+    type: vmess
+    server: planb.mojcn.com
     port: 16622
     uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
     alterId: 0
@@ -975,7 +926,20 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 171ms
+  - name: 🇫🇷_法国 - 264ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16622
+    uuid: f0350e75-1e57-42c3-b4cf-57c190a1a8d8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 264ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16622
@@ -988,7 +952,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
+  - name: 🇫🇷_法国 - 264ms
     type: vmess
     server: planb.mojcn.com
     port: 16626
@@ -1001,7 +965,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 148ms
+  - name: 🇫🇷_法国 - 264ms
     type: vmess
     server: planb.mojcn.com
     port: 16616
@@ -1014,7 +978,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 171ms
+  - name: 🇫🇷_法国 - 327ms
     type: vmess
     server: m.cnmjin.net
     port: 16616
@@ -1027,7 +991,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 168ms
+  - name: 🇫🇷_法国 - 264ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16616
@@ -1040,7 +1004,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 190ms
+  - name: 🇫🇷_法国 - 328ms
     type: vmess
     server: planb.mojcn.com
     port: 16648
@@ -1053,7 +1017,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 169ms
+  - name: 🇫🇷_法国 - 326ms
     type: vmess
     server: m.cnmjin.net
     port: 16648
@@ -1066,7 +1030,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 170ms
+  - name: 🇫🇷_法国 - 327ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16648
@@ -1079,7 +1043,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 152ms
+  - name: 🇫🇷_法国 - 328ms
     type: vmess
     server: planb.mojcn.com
     port: 16641
@@ -1092,7 +1056,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 259ms
+  - name: 🇫🇷_法国 - 746ms
     type: vmess
     server: m.cnmjin.net
     port: 16641
@@ -1105,7 +1069,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 157ms
+  - name: 🇫🇷_法国 - 328ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16641
@@ -1118,7 +1082,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 151ms
+  - name: 🇫🇷_法国 - 176ms
     type: vmess
     server: planb.mojcn.com
     port: 16644
@@ -1131,7 +1095,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 262ms
+  - name: 🇫🇷_法国 - 175ms
     type: vmess
     server: m.cnmjin.net
     port: 16644
@@ -1144,7 +1108,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 262ms
+  - name: 🇫🇷_法国 - 177ms
     type: vmess
     server: planb.mojcn.com
     port: 16645
@@ -1157,7 +1121,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 261ms
+  - name: 🇫🇷_法国 - 176ms
     type: vmess
     server: m.cnmjin.net
     port: 16645
@@ -1170,7 +1134,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 169ms
+  - name: 🇫🇷_法国 - 176ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16645
@@ -1183,7 +1147,7 @@ proxies:
       path: /
       headers:
         Host: cc9afa6ee277e0ea6f1d6dac4d4a7e15.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 260ms
+  - name: 🇫🇷_法国 - 177ms
     type: vmess
     server: planb.mojcn.com
     port: 16617
@@ -1196,7 +1160,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 265ms
+  - name: 🇫🇷_法国 - 179ms
     type: vmess
     server: m.cnmjin.net
     port: 16617
@@ -1209,7 +1173,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 262ms
+  - name: 🇫🇷_法国 - 177ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16617
@@ -1222,7 +1186,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 172ms
+  - name: 🇫🇷_法国 - 178ms
     type: vmess
     server: planb.mojcn.com
     port: 16618
@@ -1235,7 +1199,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 265ms
+  - name: 🇫🇷_法国 - 178ms
     type: vmess
     server: m.cnmjin.net
     port: 16618
@@ -1248,7 +1212,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 265ms
+  - name: 🇫🇷_法国 - 179ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16618
@@ -1261,7 +1225,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 264ms
+  - name: 🇫🇷_法国 - 180ms
     type: vmess
     server: planb.mojcn.com
     port: 16632
@@ -1274,7 +1238,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 264ms
+  - name: 🇫🇷_法国 - 179ms
     type: vmess
     server: m.cnmjin.net
     port: 16632
@@ -1287,7 +1251,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 267ms
+  - name: 🇫🇷_法国 - 179ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16632
@@ -1300,7 +1264,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 268ms
+  - name: 🇫🇷_法国 - 180ms
     type: vmess
     server: planb.mojcn.com
     port: 16622
@@ -1313,7 +1277,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 320ms
+  - name: 🇫🇷_法国 - 181ms
     type: vmess
     server: m.cnmjin.net
     port: 16622
@@ -1326,7 +1290,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 264ms
+  - name: 🇫🇷_法国 - 181ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16622
@@ -1339,10 +1303,62 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 266ms
+  - name: 🇫🇷_法国 - 181ms
     type: vmess
     server: planb.mojcn.com
     port: 16626
+    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 181ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16616
+    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 221ms
+    type: vmess
+    server: m.cnmjin.net
+    port: 16616
+    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 125ms
+    type: vmess
+    server: t.cnmjcn.cyou
+    port: 16616
+    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
+  - name: 🇫🇷_法国 - 171ms
+    type: vmess
+    server: planb.mojcn.com
+    port: 16648
     uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
     alterId: 0
     cipher: auto
@@ -1354,58 +1370,6 @@ proxies:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
   - name: 🇫🇷_法国 - 126ms
     type: vmess
-    server: planb.mojcn.com
-    port: 16616
-    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 146ms
-    type: vmess
-    server: m.cnmjin.net
-    port: 16616
-    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 129ms
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16616
-    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 140ms
-    type: vmess
-    server: planb.mojcn.com
-    port: 16648
-    uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
-    type: vmess
     server: m.cnmjin.net
     port: 16648
     uuid: 855c57a0-640f-4036-81bb-f2881ce4b2c8
@@ -1417,7 +1381,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 131ms
+  - name: 🇫🇷_法国 - 126ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16648
@@ -1430,7 +1394,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 145ms
+  - name: 🇫🇷_法国 - 171ms
     type: vmess
     server: planb.mojcn.com
     port: 16641
@@ -1443,7 +1407,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
+  - name: 🇫🇷_法国 - 173ms
     type: vmess
     server: m.cnmjin.net
     port: 16641
@@ -1456,7 +1420,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
+  - name: 🇫🇷_法国 - 171ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16641
@@ -1469,7 +1433,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
+  - name: 🇫🇷_法国 - 174ms
     type: vmess
     server: planb.mojcn.com
     port: 16644
@@ -1482,7 +1446,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 145ms
+  - name: 🇫🇷_法国 - 175ms
     type: vmess
     server: m.cnmjin.net
     port: 16644
@@ -1495,7 +1459,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 149ms
+  - name: 🇫🇷_法国 - 173ms
     type: vmess
     server: planb.mojcn.com
     port: 16645
@@ -1508,7 +1472,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 147ms
+  - name: 🇫🇷_法国 - 175ms
     type: vmess
     server: m.cnmjin.net
     port: 16645
@@ -1521,7 +1485,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇫🇷_法国 - 148ms
+  - name: 🇫🇷_法国 - 175ms
     type: vmess
     server: t.cnmjcn.cyou
     port: 16645
@@ -1534,319 +1498,7 @@ proxies:
       path: /
       headers:
         Host: 26e20fd7983c94ddbec2c10b8852cb2e.mobgslb.tbcache.com
-  - name: 🇺🇸_US_美国_1 - 12ms
-    type: vmess
-    server: 104.18.114.188
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_2 - 13ms
-    type: vmess
-    server: 104.18.114.33
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_3 - 14ms
-    type: vmess
-    server: 104.18.114.69
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 13ms
-    type: vmess
-    server: 194.36.55.4
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_4 - 12ms
-    type: vmess
-    server: 104.18.114.118
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_5 - 30ms
-    type: vmess
-    server: 162.159.45.165
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_6 - 12ms
-    type: vmess
-    server: 104.18.114.162
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 14ms
-    type: vmess
-    server: 146.19.21.61
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_8 - 12ms
-    type: vmess
-    server: 104.26.0.87
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_9 - 15ms
-    type: vmess
-    server: 104.21.238.37
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_10 - 14ms
-    type: vmess
-    server: 104.26.0.239
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_11 - 13ms
-    type: vmess
-    server: 104.18.114.125
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 12ms
-    type: vmess
-    server: 104.21.238.148
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_13 - 14ms
-    type: vmess
-    server: 104.18.114.183
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 13ms
-    type: vmess
-    server: 190.93.244.1
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_14 - 14ms
-    type: vmess
-    server: 104.18.114.107
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_15 - 14ms
-    type: vmess
-    server: 104.26.0.183
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_16 - 12ms
-    type: vmess
-    server: 104.18.114.56
-    port: 8880
-    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_17 - 15ms
-    type: vmess
-    server: 104.26.0.71
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_18 - 14ms
-    type: vmess
-    server: 104.18.114.58
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_19 - 12ms
-    type: vmess
-    server: 104.18.114.122
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_20 - 13ms
-    type: vmess
-    server: 104.18.114.108
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_21 - 15ms
-    type: vmess
-    server: 104.21.238.182
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_22 - 15ms
-    type: vmess
-    server: 104.18.114.111
-    port: 2086
-    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_1 - 12ms
+  - name: 🇺🇸_US_美国_1 - 6ms
     type: vmess
     server: 104.26.0.206
     port: 2086
@@ -1859,7 +1511,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: p1.613055.xyz
-  - name: 🇺🇸_US_美国_4 - 15ms
+  - name: 🇺🇸_US_美国_4 - 6ms
     type: vmess
     server: 104.26.0.15
     port: 8880
@@ -1872,7 +1524,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m125.106778.xyz
-  - name: 🇺🇸_US_美国_7 - 31ms
+  - name: 🇺🇸_US_美国_7 - 6ms
     type: vmess
     server: 162.159.45.53
     port: 2086
@@ -1885,7 +1537,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: e104.808075.xyz
-  - name: 🇺🇸_US_美国_9 - 13ms
+  - name: 🇺🇸_US_美国_9 - 6ms
     type: vmess
     server: 104.26.0.100
     port: 8880
@@ -1898,7 +1550,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_10 - 31ms
+  - name: 🇺🇸_US_美国_10 - 6ms
     type: vmess
     server: 162.159.45.47
     port: 8880
@@ -1911,7 +1563,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 12ms
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 6ms
     type: vmess
     server: 104.18.114.56
     port: 8880
@@ -1924,7 +1576,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_11 - 32ms
+  - name: 🇺🇸_US_美国_11 - 6ms
     type: vmess
     server: 162.159.45.181
     port: 2086
@@ -1937,7 +1589,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: e104.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 31ms
+  - name: 🇺🇸_US_美国_12 - 6ms
     type: vmess
     server: 162.159.45.77
     port: 8880
@@ -1950,7 +1602,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_13 - 12ms
+  - name: 🇺🇸_US_美国_13 - 6ms
     type: vmess
     server: 104.26.0.87
     port: 2086
@@ -1963,323 +1615,660 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
+  - name: 🇺🇸_US_美国_1 - 6ms
+    type: vmess
+    server: 104.18.114.188
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_2 - 7ms
+    type: vmess
+    server: 104.18.114.33
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_3 - 6ms
+    type: vmess
+    server: 104.18.114.69
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 7ms
+    type: vmess
+    server: 194.36.55.4
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇺🇸_US_美国_4 - 7ms
+    type: vmess
+    server: 104.18.114.118
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_5 - 6ms
+    type: vmess
+    server: 162.159.45.165
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_6 - 6ms
+    type: vmess
+    server: 104.18.114.162
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 7ms
+    type: vmess
+    server: 146.19.21.61
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇺🇸_US_美国_8 - 6ms
+    type: vmess
+    server: 104.26.0.87
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_9 - 7ms
+    type: vmess
+    server: 104.21.238.37
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_10 - 7ms
+    type: vmess
+    server: 104.26.0.239
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_11 - 6ms
+    type: vmess
+    server: 104.18.114.125
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_12 - 6ms
+    type: vmess
+    server: 104.21.238.148
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_13 - 6ms
+    type: vmess
+    server: 104.18.114.183
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 7ms
+    type: vmess
+    server: 190.93.244.1
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
+  - name: 🇺🇸_US_美国_14 - 6ms
+    type: vmess
+    server: 104.18.114.107
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_15 - 7ms
+    type: vmess
+    server: 104.26.0.183
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_16 - 6ms
+    type: vmess
+    server: 104.18.114.56
+    port: 8880
+    uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: m1.106778.xyz
+  - name: 🇺🇸_US_美国_17 - 7ms
+    type: vmess
+    server: 104.26.0.71
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_18 - 7ms
+    type: vmess
+    server: 104.18.114.58
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_19 - 6ms
+    type: vmess
+    server: 104.18.114.122
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_20 - 6ms
+    type: vmess
+    server: 104.18.114.108
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_21 - 7ms
+    type: vmess
+    server: 104.21.238.182
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 🇺🇸_US_美国_22 - 6ms
+    type: vmess
+    server: 104.18.114.111
+    port: 2086
+    uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        Host: e5.808075.xyz
+  - name: 伊朗 V2CROSS.COM - 355ms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - 70ms
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - 71ms
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - 12ms
-      - 英国 V2CROSS.COM - 45ms
-      - 伊朗 V2CROSS.COM - 445ms
-      - 英国 V2CROSS.COM - 45ms
-      - 英国 V2CROSS.COM - 46ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 13ms
-      - 🇬🇧_英国 - 47ms
-      - 🇮🇷_伊朗 - 379ms
-      - 🇮🇷_伊朗 - 378ms
-      - 🇬🇧_英国 - 52ms
-      - 🇮🇷_伊朗 - 179ms
-      - 🇬🇧_英国 - 45ms
+      - TG-@vvkj11 - 6ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 6ms
+      - 🇭🇰HK_2|2.6MB/s - 369ms
+      - 🇬🇧_英国 - 68ms
+      - 🇮🇷_伊朗 - 353ms
+      - 🇮🇷_伊朗 - 355ms
+      - 🇬🇧_英国 - 68ms
+      - 🇬🇧_英国 - 70ms
       - 🇲🇽_墨西哥 - 50ms
-      - _未知 - 23ms
-      - 🇺🇸_美国 - 24ms
-      - 🇫🇷_法国 - 261ms
-      - 🇫🇷_法国 - 411ms
-      - 🇫🇷_法国 - 378ms
-      - 🇫🇷_法国 - 378ms
+      - _未知 - 146ms
+      - 🇺🇸_美国 - 11ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 447ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 234ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 324ms
       - 🇫🇷_法国 - 279ms
-      - 🇫🇷_法国 - 377ms
-      - 🇫🇷_法国 - 309ms
-      - 🇫🇷_法国 - 307ms
-      - 🇫🇷_法国 - 309ms
-      - 🇫🇷_法国 - 318ms
-      - 🇫🇷_法国 - 293ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 321ms
       - 🇫🇷_法国 - 334ms
       - 🇫🇷_法国 - 334ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 333ms
-      - 🇫🇷_法国 - 372ms
-      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 334ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 334ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 337ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 536ms
       - 🇫🇷_法国 - 353ms
-      - 🇫🇷_法国 - 373ms
-      - 🇫🇷_法国 - 375ms
-      - 🇫🇷_法国 - 144ms
-      - 🇫🇷_法国 - 218ms
-      - _未知 - 13ms
-      - 🇫🇷_法国 - 191ms
-      - 🇫🇷_法国 - 249ms
-      - 🇫🇷_法国 - 192ms
-      - 🇫🇷_法国 - 207ms
-      - 🇫🇷_法国 - 248ms
-      - 🇫🇷_法国 - 202ms
-      - 🇫🇷_法国 - 743ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 124ms
-      - 🇫🇷_法国 - 148ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 124ms
-      - 🇫🇷_法国 - 143ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 222ms
-      - 🇫🇷_法国 - 219ms
-      - 🇫🇷_法国 - 222ms
-      - 🇫🇷_法国 - 223ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 222ms
+      - 🇫🇷_法国 - 353ms
+      - 🇫🇷_法国 - 537ms
+      - 🇫🇷_法国 - 586ms
+      - 🇫🇷_法国 - 585ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 235ms
+      - _未知 - 6ms
+      - 🇫🇷_法国 - 93ms
+      - 🇫🇷_法国 - 149ms
+      - 🇫🇷_法国 - 95ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 150ms
+      - 🇫🇷_法国 - 150ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 196ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 347ms
+      - 🇫🇷_法国 - 349ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 352ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 462ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 467ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 463ms
+      - 🇫🇷_法国 - 462ms
+      - 🇫🇷_法国 - 463ms
+      - 🇫🇷_法国 - 464ms
+      - 🇫🇷_法国 - 467ms
+      - 🇫🇷_法国 - 501ms
+      - 🇫🇷_法国 - 502ms
+      - 🇫🇷_法国 - 195ms
       - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 699ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 242ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 327ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 326ms
+      - 🇫🇷_法国 - 327ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 746ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 178ms
+      - 🇫🇷_法国 - 178ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 180ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 180ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
       - 🇫🇷_法国 - 221ms
-      - 🇫🇷_法国 - 242ms
-      - 🇫🇷_法国 - 242ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 138ms
-      - 🇫🇷_法国 - 144ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 141ms
-      - 🇫🇷_法国 - 170ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 149ms
+      - 🇫🇷_法国 - 125ms
       - 🇫🇷_法国 - 171ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 148ms
-      - 🇫🇷_法国 - 171ms
-      - 🇫🇷_法国 - 168ms
-      - 🇫🇷_法国 - 190ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 170ms
-      - 🇫🇷_法国 - 152ms
-      - 🇫🇷_法国 - 259ms
-      - 🇫🇷_法国 - 157ms
-      - 🇫🇷_法国 - 151ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 261ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 260ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 172ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 267ms
-      - 🇫🇷_法国 - 268ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 266ms
       - 🇫🇷_法国 - 126ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 129ms
-      - 🇫🇷_法国 - 140ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 131ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 149ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 148ms
-      - 🇺🇸_US_美国_1 - 12ms
-      - 🇺🇸_US_美国_2 - 13ms
-      - 🇺🇸_US_美国_3 - 14ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 13ms
-      - 🇺🇸_US_美国_4 - 12ms
-      - 🇺🇸_US_美国_5 - 30ms
-      - 🇺🇸_US_美国_6 - 12ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 14ms
-      - 🇺🇸_US_美国_8 - 12ms
-      - 🇺🇸_US_美国_9 - 15ms
-      - 🇺🇸_US_美国_10 - 14ms
-      - 🇺🇸_US_美国_11 - 13ms
-      - 🇺🇸_US_美国_12 - 12ms
-      - 🇺🇸_US_美国_13 - 14ms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 13ms
-      - 🇺🇸_US_美国_14 - 14ms
-      - 🇺🇸_US_美国_15 - 14ms
-      - 🇺🇸_US_美国_16 - 12ms
-      - 🇺🇸_US_美国_17 - 15ms
-      - 🇺🇸_US_美国_18 - 14ms
-      - 🇺🇸_US_美国_19 - 12ms
-      - 🇺🇸_US_美国_20 - 13ms
-      - 🇺🇸_US_美国_21 - 15ms
-      - 🇺🇸_US_美国_22 - 15ms
-      - 🇺🇸_US_美国_1 - 12ms
-      - 🇺🇸_US_美国_4 - 15ms
-      - 🇺🇸_US_美国_7 - 31ms
-      - 🇺🇸_US_美国_9 - 13ms
-      - 🇺🇸_US_美国_10 - 31ms
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 12ms
-      - 🇺🇸_US_美国_11 - 32ms
-      - 🇺🇸_US_美国_12 - 31ms
-      - 🇺🇸_US_美国_13 - 12ms
+      - 🇫🇷_法国 - 126ms
+      - 🇫🇷_法国 - 171ms
+      - 🇫🇷_法国 - 173ms
+      - 🇫🇷_法国 - 171ms
+      - 🇫🇷_法国 - 174ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 173ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 175ms
+      - 🇺🇸_US_美国_1 - 6ms
+      - 🇺🇸_US_美国_4 - 6ms
+      - 🇺🇸_US_美国_7 - 6ms
+      - 🇺🇸_US_美国_9 - 6ms
+      - 🇺🇸_US_美国_10 - 6ms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 6ms
+      - 🇺🇸_US_美国_11 - 6ms
+      - 🇺🇸_US_美国_12 - 6ms
+      - 🇺🇸_US_美国_13 - 6ms
+      - 🇺🇸_US_美国_1 - 6ms
+      - 🇺🇸_US_美国_2 - 7ms
+      - 🇺🇸_US_美国_3 - 6ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_4 - 7ms
+      - 🇺🇸_US_美国_5 - 6ms
+      - 🇺🇸_US_美国_6 - 6ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_8 - 6ms
+      - 🇺🇸_US_美国_9 - 7ms
+      - 🇺🇸_US_美国_10 - 7ms
+      - 🇺🇸_US_美国_11 - 6ms
+      - 🇺🇸_US_美国_12 - 6ms
+      - 🇺🇸_US_美国_13 - 6ms
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_14 - 6ms
+      - 🇺🇸_US_美国_15 - 7ms
+      - 🇺🇸_US_美国_16 - 6ms
+      - 🇺🇸_US_美国_17 - 7ms
+      - 🇺🇸_US_美国_18 - 7ms
+      - 🇺🇸_US_美国_19 - 6ms
+      - 🇺🇸_US_美国_20 - 6ms
+      - 🇺🇸_US_美国_21 - 7ms
+      - 🇺🇸_US_美国_22 - 6ms
+      - 伊朗 V2CROSS.COM - 355ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - 12ms
-      - 英国 V2CROSS.COM - 45ms
-      - 伊朗 V2CROSS.COM - 445ms
-      - 英国 V2CROSS.COM - 45ms
-      - 英国 V2CROSS.COM - 46ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 13ms
-      - 🇬🇧_英国 - 47ms
-      - 🇮🇷_伊朗 - 379ms
-      - 🇮🇷_伊朗 - 378ms
-      - 🇬🇧_英国 - 52ms
-      - 🇮🇷_伊朗 - 179ms
-      - 🇬🇧_英国 - 45ms
+      - TG-@vvkj11 - 6ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 6ms
+      - 🇭🇰HK_2|2.6MB/s - 369ms
+      - 🇬🇧_英国 - 68ms
+      - 🇮🇷_伊朗 - 353ms
+      - 🇮🇷_伊朗 - 355ms
+      - 🇬🇧_英国 - 68ms
+      - 🇬🇧_英国 - 70ms
       - 🇲🇽_墨西哥 - 50ms
-      - _未知 - 23ms
-      - 🇺🇸_美国 - 24ms
-      - 🇫🇷_法国 - 261ms
-      - 🇫🇷_法国 - 411ms
-      - 🇫🇷_法国 - 378ms
-      - 🇫🇷_法国 - 378ms
+      - _未知 - 146ms
+      - 🇺🇸_美国 - 11ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 447ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 234ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 233ms
+      - 🇫🇷_法国 - 324ms
       - 🇫🇷_法国 - 279ms
-      - 🇫🇷_法国 - 377ms
-      - 🇫🇷_法国 - 309ms
-      - 🇫🇷_法国 - 307ms
-      - 🇫🇷_法国 - 309ms
-      - 🇫🇷_法国 - 318ms
-      - 🇫🇷_法国 - 293ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 321ms
       - 🇫🇷_法国 - 334ms
       - 🇫🇷_法国 - 334ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 333ms
-      - 🇫🇷_法国 - 372ms
-      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 334ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 334ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 337ms
+      - 🇫🇷_法国 - 336ms
+      - 🇫🇷_法国 - 536ms
       - 🇫🇷_法国 - 353ms
-      - 🇫🇷_法国 - 373ms
-      - 🇫🇷_法国 - 375ms
-      - 🇫🇷_法国 - 144ms
-      - 🇫🇷_法国 - 218ms
-      - _未知 - 13ms
-      - 🇫🇷_法国 - 191ms
-      - 🇫🇷_法国 - 249ms
-      - 🇫🇷_法国 - 192ms
-      - 🇫🇷_法国 - 207ms
-      - 🇫🇷_法国 - 248ms
-      - 🇫🇷_法国 - 202ms
-      - 🇫🇷_法国 - 743ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 124ms
-      - 🇫🇷_法国 - 148ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 124ms
-      - 🇫🇷_法国 - 143ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 222ms
-      - 🇫🇷_法国 - 219ms
-      - 🇫🇷_法国 - 222ms
-      - 🇫🇷_法国 - 223ms
-      - 🇫🇷_法国 - 220ms
-      - 🇫🇷_法国 - 222ms
+      - 🇫🇷_法国 - 353ms
+      - 🇫🇷_法国 - 537ms
+      - 🇫🇷_法国 - 586ms
+      - 🇫🇷_法国 - 585ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 235ms
+      - _未知 - 6ms
+      - 🇫🇷_法国 - 93ms
+      - 🇫🇷_法国 - 149ms
+      - 🇫🇷_法国 - 95ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 150ms
+      - 🇫🇷_法国 - 150ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 196ms
+      - 🇫🇷_法国 - 195ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 347ms
+      - 🇫🇷_法国 - 349ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 352ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 462ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 351ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 467ms
+      - 🇫🇷_法国 - 461ms
+      - 🇫🇷_法国 - 463ms
+      - 🇫🇷_法国 - 462ms
+      - 🇫🇷_法国 - 463ms
+      - 🇫🇷_法国 - 464ms
+      - 🇫🇷_法国 - 467ms
+      - 🇫🇷_法国 - 501ms
+      - 🇫🇷_法国 - 502ms
+      - 🇫🇷_法国 - 195ms
       - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 699ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 242ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 243ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 327ms
+      - 🇫🇷_法国 - 264ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 326ms
+      - 🇫🇷_法国 - 327ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 746ms
+      - 🇫🇷_法国 - 328ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 176ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 177ms
+      - 🇫🇷_法国 - 178ms
+      - 🇫🇷_法国 - 178ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 180ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 179ms
+      - 🇫🇷_法国 - 180ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
+      - 🇫🇷_法国 - 181ms
       - 🇫🇷_法国 - 221ms
-      - 🇫🇷_法国 - 242ms
-      - 🇫🇷_法国 - 242ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 138ms
-      - 🇫🇷_法国 - 144ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 141ms
-      - 🇫🇷_法国 - 170ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 149ms
+      - 🇫🇷_法国 - 125ms
       - 🇫🇷_法国 - 171ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 148ms
-      - 🇫🇷_法国 - 171ms
-      - 🇫🇷_法国 - 168ms
-      - 🇫🇷_法国 - 190ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 170ms
-      - 🇫🇷_法国 - 152ms
-      - 🇫🇷_法国 - 259ms
-      - 🇫🇷_法国 - 157ms
-      - 🇫🇷_法国 - 151ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 261ms
-      - 🇫🇷_法国 - 169ms
-      - 🇫🇷_法国 - 260ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 262ms
-      - 🇫🇷_法国 - 172ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 265ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 267ms
-      - 🇫🇷_法国 - 268ms
-      - 🇫🇷_法国 - 320ms
-      - 🇫🇷_法国 - 264ms
-      - 🇫🇷_法国 - 266ms
       - 🇫🇷_法国 - 126ms
-      - 🇫🇷_法国 - 146ms
-      - 🇫🇷_法国 - 129ms
-      - 🇫🇷_法国 - 140ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 131ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 145ms
-      - 🇫🇷_法国 - 149ms
-      - 🇫🇷_法国 - 147ms
-      - 🇫🇷_法国 - 148ms
-      - 🇺🇸_US_美国_1 - 12ms
-      - 🇺🇸_US_美国_2 - 13ms
-      - 🇺🇸_US_美国_3 - 14ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 13ms
-      - 🇺🇸_US_美国_4 - 12ms
-      - 🇺🇸_US_美国_5 - 30ms
-      - 🇺🇸_US_美国_6 - 12ms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 14ms
-      - 🇺🇸_US_美国_8 - 12ms
-      - 🇺🇸_US_美国_9 - 15ms
-      - 🇺🇸_US_美国_10 - 14ms
-      - 🇺🇸_US_美国_11 - 13ms
-      - 🇺🇸_US_美国_12 - 12ms
-      - 🇺🇸_US_美国_13 - 14ms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 13ms
-      - 🇺🇸_US_美国_14 - 14ms
-      - 🇺🇸_US_美国_15 - 14ms
-      - 🇺🇸_US_美国_16 - 12ms
-      - 🇺🇸_US_美国_17 - 15ms
-      - 🇺🇸_US_美国_18 - 14ms
-      - 🇺🇸_US_美国_19 - 12ms
-      - 🇺🇸_US_美国_20 - 13ms
-      - 🇺🇸_US_美国_21 - 15ms
-      - 🇺🇸_US_美国_22 - 15ms
-      - 🇺🇸_US_美国_1 - 12ms
-      - 🇺🇸_US_美国_4 - 15ms
-      - 🇺🇸_US_美国_7 - 31ms
-      - 🇺🇸_US_美国_9 - 13ms
-      - 🇺🇸_US_美国_10 - 31ms
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 12ms
-      - 🇺🇸_US_美国_11 - 32ms
-      - 🇺🇸_US_美国_12 - 31ms
-      - 🇺🇸_US_美国_13 - 12ms
+      - 🇫🇷_法国 - 126ms
+      - 🇫🇷_法国 - 171ms
+      - 🇫🇷_法国 - 173ms
+      - 🇫🇷_法国 - 171ms
+      - 🇫🇷_法国 - 174ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 173ms
+      - 🇫🇷_法国 - 175ms
+      - 🇫🇷_法国 - 175ms
+      - 🇺🇸_US_美国_1 - 6ms
+      - 🇺🇸_US_美国_4 - 6ms
+      - 🇺🇸_US_美国_7 - 6ms
+      - 🇺🇸_US_美国_9 - 6ms
+      - 🇺🇸_US_美国_10 - 6ms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 6ms
+      - 🇺🇸_US_美国_11 - 6ms
+      - 🇺🇸_US_美国_12 - 6ms
+      - 🇺🇸_US_美国_13 - 6ms
+      - 🇺🇸_US_美国_1 - 6ms
+      - 🇺🇸_US_美国_2 - 7ms
+      - 🇺🇸_US_美国_3 - 6ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_4 - 7ms
+      - 🇺🇸_US_美国_5 - 6ms
+      - 🇺🇸_US_美国_6 - 6ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_8 - 6ms
+      - 🇺🇸_US_美国_9 - 7ms
+      - 🇺🇸_US_美国_10 - 7ms
+      - 🇺🇸_US_美国_11 - 6ms
+      - 🇺🇸_US_美国_12 - 6ms
+      - 🇺🇸_US_美国_13 - 6ms
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 7ms
+      - 🇺🇸_US_美国_14 - 6ms
+      - 🇺🇸_US_美国_15 - 7ms
+      - 🇺🇸_US_美国_16 - 6ms
+      - 🇺🇸_US_美国_17 - 7ms
+      - 🇺🇸_US_美国_18 - 7ms
+      - 🇺🇸_US_美国_19 - 6ms
+      - 🇺🇸_US_美国_20 - 6ms
+      - 🇺🇸_US_美国_21 - 7ms
+      - 🇺🇸_US_美国_22 - 6ms
+      - 伊朗 V2CROSS.COM - 355ms
+      - 英国 V2CROSS.COM - 70ms
+      - 英国 V2CROSS.COM - 71ms
 rules:
   - MATCH,Proxy
