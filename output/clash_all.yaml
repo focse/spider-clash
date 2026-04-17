@@ -44,16 +44,7 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 英国 V2CROSS.COM - undefinedms
-    type: vmess
-    server: 82.198.246.46
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 纽约(Prudential) - undefinedms
+  - name: 香港 电讯盈科商用网络 - undefinedms
     type: vmess
     server: v30.hdacd.com
     port: 30830
@@ -64,9 +55,81 @@ proxies:
     network: tcp
   - name: 英国 V2CROSS.COM - undefinedms
     type: vmess
-    server: 82.198.246.250
+    server: 82.198.246.46
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 亚太地区 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 103.181.164.145
+    port: 51556
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 香港 电讯盈科商用网络 - undefinedms
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_1|1.7MB/s - undefinedms
+    type: vmess
+    server: a.cdn-bilibili.cn
+    port: 58712
+    uuid: 4951cd5b-6cf9-409b-a33f-94e9309a850a
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_2|2.0MB/s - undefinedms
+    type: vmess
+    server: vm51544542.dns8656815.com
+    port: 7754
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_3|1.6MB/s - undefinedms
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_5|2.3MB/s - undefinedms
+    type: vmess
+    server: vm51544542.dns8656815.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰HK_6|2.0MB/s - undefinedms
+    type: vmess
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
     alterId: 0
     cipher: auto
     tls: false
@@ -456,42 +519,6 @@ proxies:
         /?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN
       headers:
         Host: 2001:bc8:32d7:302::10
-  - name: 🇭🇰HK_1|1.5MB/s - undefinedms
-    type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_2|1.4MB/s - undefinedms
-    type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_3|2.0MB/s - undefinedms
-    type: vmess
-    server: efan.dnsefan04881.com
-    port: 7754
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_4|1.1MB/s - undefinedms
-    type: vmess
-    server: vm51544542.dns8656815.com
-    port: 7754
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -967,9 +994,16 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 香港 电讯盈科商用网络 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 美国 纽约(Prudential) - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科商用网络 - undefinedms
+      - 🇺🇸US_1|1.7MB/s - undefinedms
+      - 🇭🇰HK_2|2.0MB/s - undefinedms
+      - 🇭🇰HK_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_5|2.3MB/s - undefinedms
+      - 🇭🇰HK_6|2.0MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇺🇸_美国 - undefinedms
       - 🇬🇧_英国 - undefinedms
@@ -1002,10 +1036,6 @@ proxy-groups:
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇭🇰HK_1|1.5MB/s - undefinedms
-      - 🇭🇰HK_2|1.4MB/s - undefinedms
-      - 🇭🇰HK_3|2.0MB/s - undefinedms
-      - 🇭🇰HK_4|1.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -1051,9 +1081,16 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 香港 电讯盈科商用网络 - undefinedms
       - 英国 V2CROSS.COM - undefinedms
-      - 美国 纽约(Prudential) - undefinedms
       - 英国 V2CROSS.COM - undefinedms
+      - 亚太地区 V2CROSS.COM - undefinedms
+      - 香港 电讯盈科商用网络 - undefinedms
+      - 🇺🇸US_1|1.7MB/s - undefinedms
+      - 🇭🇰HK_2|2.0MB/s - undefinedms
+      - 🇭🇰HK_3|1.6MB/s - undefinedms
+      - 🇭🇰HK_5|2.3MB/s - undefinedms
+      - 🇭🇰HK_6|2.0MB/s - undefinedms
       - 🇬🇧_英国 - undefinedms
       - 🇺🇸_美国 - undefinedms
       - 🇬🇧_英国 - undefinedms
@@ -1086,10 +1123,6 @@ proxy-groups:
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
       - 🇫🇷_法国 - undefinedms
-      - 🇭🇰HK_1|1.5MB/s - undefinedms
-      - 🇭🇰HK_2|1.4MB/s - undefinedms
-      - 🇭🇰HK_3|2.0MB/s - undefinedms
-      - 🇭🇰HK_4|1.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
