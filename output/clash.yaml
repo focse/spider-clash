@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 18ms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
     type: vmess
     server: 45.80.111.9
     port: 2082
@@ -18,7 +18,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: TG-@vvkj11 - 18ms
+  - name: TG-@vvkj11 - 3ms
     type: vmess
     server: 23.227.39.11
     port: 8080
@@ -31,109 +31,7 @@ proxies:
       path: /1IKYjV0r/
       headers:
         Host: dongtaiwang15.dtku47.xyz
-  - name: 未知 VMESS-124 | free-nodes - 582ms
-    type: vmess
-    server: 104.233.214.176
-    port: 13581
-    uuid: d4d715a6-0a2e-4304-df2f-d5efd85a5a5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-125 | free-nodes - 36ms
-    type: vmess
-    server: 129.146.143.80
-    port: 48111
-    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-126 | free-nodes - 36ms
-    type: vmess
-    server: 129.146.77.248
-    port: 39495
-    uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /cctv13.m3u8
-      headers:
-        Host: 129.146.77.248
-  - name: 未知 VMESS-127 | free-nodes - 126ms
-    type: vmess
-    server: 140.83.51.161
-    port: 25686
-    uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /cctv13.m3u8
-      headers:
-        Host: jp02.a0a.xyz
-  - name: 未知 VMESS-128 | free-nodes - 122ms
-    type: vmess
-    server: 153.121.73.175
-    port: 49803
-    uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-129 | free-nodes - 36ms
-    type: vmess
-    server: 155.254.126.249
-    port: 6001
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-130 | free-nodes - 121ms
-    type: vmess
-    server: 172.104.80.66
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 1
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-131 | free-nodes - 207ms
-    type: vmess
-    server: 213.156.141.52
-    port: 22324
-    uuid: 04621bae-ab36-11ec-b909-0242ac120002
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-132 | free-nodes - 48ms
-    type: vmess
-    server: 38.110.1.246
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-133 | free-nodes - 188ms
-    type: vmess
-    server: 47.250.149.51
-    port: 50018
-    uuid: 9665280c-a3d1-4aab-ef9f-a3a497337d91
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /9665280c
-      headers:
-        Host: 47.250.149.51
-  - name: 未知 VMESS-134 | free-nodes - 48ms
+  - name: 未知 VMESS-132 | free-nodes - 23ms
     type: vmess
     server: 57.151.100.27
     port: 10086
@@ -142,42 +40,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-135 | free-nodes - 49ms
-    type: vmess
-    server: 66.154.106.185
-    port: 48060
-    uuid: f60ecc88-d704-489c-e3b9-082805317e7b
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: 66.154.106.185
-  - name: 未知 VMESS-136 | free-nodes - 907ms
-    type: vmess
-    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-    port: 10020
-    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  - name: 未知 VMESS-137 | free-nodes - 55ms
-    type: vmess
-    server: 67.220.85.46
-    port: 18000
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-138 | free-nodes - 577ms
+  - name: 未知 VMESS-133 | free-nodes - 488ms
     type: vmess
     server: renderer-stream-1-411.mirra.now
     port: 443
@@ -190,20 +53,7 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-1-411.mirra.now
-  - name: 未知 VMESS-139 | free-nodes - 373ms
-    type: vmess
-    server: speedtest.org
-    port: 80
-    uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-    alterId: 0
-    cipher: chacha20-poly1305
-    tls: false
-    network: ws
-    ws-opts:
-      path: /IOebhLMhl1CTbFHbL95myfRX2
-      headers:
-        Host: de2.ping-game.ir
-  - name: 未知 VMESS-140 | free-nodes - 761ms
+  - name: 未知 VMESS-134 | free-nodes - 253ms
     type: vmess
     server: nlt.reata.ir
     port: 1020
@@ -212,11 +62,11 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-176 | free-nodes - 565ms
+  - name: 未知 VMESS-170 | free-nodes - 109ms
     type: vmess
     server: s611.ccgfw.online
     port: 443
-    uuid: 1c65bee4-bc54-364c-8988-6a5912fda891
+    uuid: 723af53a-b131-3270-8ce0-13f8ecaaa322
     alterId: 0
     cipher: auto
     tls: true
@@ -225,34 +75,7 @@ proxies:
       path: /ssp-ws
       headers:
         Host: s611.ccgfw.online
-  - name: 英国 V2CROSS.COM - 24ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 德国 - 24ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 - 24ms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 美国 - 24ms
+  - name: 英国 V2CROSS.COM - 50ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -261,7 +84,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 - 24ms
+  - name: 伊朗 V2CROSS.COM - 259ms
+    type: vmess
+    server: nlt.reata.ir
+    port: 1020
+    uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 德国 - 50ms
     type: vmess
     server: 82.198.246.250
     port: 180
@@ -270,7 +102,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 英国 - 24ms
+  - name: 美国 - 49ms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 美国 - 48ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -279,7 +120,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 - 24ms
+  - name: 英国 - 50ms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 英国 - 50ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -288,7 +138,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 中国香港 - 278ms
+  - name: 美国 - 50ms
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 中国香港 - 266ms
     type: vmess
     server: v10.hdacd.com
     port: 30807
@@ -297,7 +156,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 马来西亚 - 374ms
+  - name: 马来西亚 - 291ms
     type: vmess
     server: v33.hdacd.com
     port: 30833
@@ -306,7 +165,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 - 956ms
+  - name: 美国 - 146ms
     type: vmess
     server: renderer-stream-1-411.mirra.now
     port: 443
@@ -319,7 +178,7 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-1-411.mirra.now
-  - name: 荷兰 - 833ms
+  - name: 荷兰 - 273ms
     type: vmess
     server: renderer-stream-1-411.mirra.now
     port: 443
@@ -332,7 +191,7 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-1-411.mirra.now
-  - name: 美国 - 20ms
+  - name: 美国 - 3ms
     type: vmess
     server: 172.67.187.219
     port: 80
@@ -345,7 +204,7 @@ proxies:
       path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
       headers:
         Host: accklsj.bufu.us.ci
-  - name: 未知地区 - 877ms
+  - name: 未知地区 - 627ms
     type: vmess
     server: mugen11.6bnw.top
     port: 8080
@@ -358,7 +217,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: mugen11.6bnw.top
-  - name: 未知地区 - 1011ms
+  - name: 未知地区 - 630ms
     type: vmess
     server: mugen33.6bnw.top
     port: 8080
@@ -371,7 +230,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: buyvmus2.6bnw.top
-  - name: 未知地区 - 1037ms
+  - name: 未知地区 - 748ms
     type: vmess
     server: mugen44.6bnw.top
     port: 8080
@@ -384,7 +243,7 @@ proxies:
       path: /?ed=2560
       headers:
         Host: buyvmus2.6bnw.top
-  - name: 🇮🇪IE_1|1.1MB/s - 350ms
+  - name: 🇮🇪IE_1|1.2MB/s - 860ms
     type: vmess
     server: v8.hdacd.com
     port: 30808
@@ -393,7 +252,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_US_美国_1 - 19ms
+  - name: 🇮🇪IE_2|1.4MB/s - 871ms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国_1 - 2ms
     type: vmess
     server: 104.18.114.188
     port: 2086
@@ -406,7 +274,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_2 - 18ms
+  - name: 🇺🇸_US_美国_2 - 3ms
     type: vmess
     server: 104.18.114.33
     port: 2086
@@ -419,7 +287,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_3 - 18ms
+  - name: 🇺🇸_US_美国_3 - 3ms
     type: vmess
     server: 104.18.114.69
     port: 2086
@@ -432,7 +300,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 18ms
+  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
     type: vmess
     server: 194.36.55.4
     port: 2082
@@ -445,7 +313,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_4 - 19ms
+  - name: 🇺🇸_US_美国_4 - 3ms
     type: vmess
     server: 104.18.114.118
     port: 2086
@@ -458,7 +326,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_5 - 24ms
+  - name: 🇺🇸_US_美国_5 - 25ms
     type: vmess
     server: 162.159.45.165
     port: 2086
@@ -471,7 +339,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_6 - 18ms
+  - name: 🇺🇸_US_美国_6 - 4ms
     type: vmess
     server: 104.18.114.162
     port: 2086
@@ -484,7 +352,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_8 - 18ms
+  - name: 🇺🇸_US_美国_8 - 3ms
     type: vmess
     server: 104.26.0.87
     port: 2086
@@ -497,7 +365,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_9 - 18ms
+  - name: 🇺🇸_US_美国_9 - 3ms
     type: vmess
     server: 104.21.238.37
     port: 2086
@@ -510,7 +378,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_10 - 19ms
+  - name: 🇺🇸_US_美国_10 - 2ms
     type: vmess
     server: 104.26.0.239
     port: 2086
@@ -523,7 +391,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_11 - 18ms
+  - name: 🇺🇸_US_美国_11 - 2ms
     type: vmess
     server: 104.18.114.125
     port: 2086
@@ -536,7 +404,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 19ms
+  - name: 🇺🇸_US_美国_12 - 3ms
     type: vmess
     server: 104.21.238.148
     port: 2086
@@ -549,7 +417,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_13 - 18ms
+  - name: 🇺🇸_US_美国_13 - 3ms
     type: vmess
     server: 104.18.114.183
     port: 2086
@@ -562,7 +430,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 18ms
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
     type: vmess
     server: 190.93.244.1
     port: 2082
@@ -575,7 +443,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 🇺🇸_US_美国_14 - 18ms
+  - name: 🇺🇸_US_美国_14 - 3ms
     type: vmess
     server: 104.18.114.107
     port: 2086
@@ -588,7 +456,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_15 - 18ms
+  - name: 🇺🇸_US_美国_15 - 3ms
     type: vmess
     server: 104.26.0.183
     port: 2086
@@ -601,7 +469,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_16 - 18ms
+  - name: 🇺🇸_US_美国_16 - 4ms
     type: vmess
     server: 104.18.114.56
     port: 8880
@@ -614,7 +482,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_17 - 18ms
+  - name: 🇺🇸_US_美国_17 - 3ms
     type: vmess
     server: 104.26.0.71
     port: 2086
@@ -627,7 +495,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_18 - 18ms
+  - name: 🇺🇸_US_美国_18 - 3ms
     type: vmess
     server: 104.18.114.58
     port: 2086
@@ -640,7 +508,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_19 - 18ms
+  - name: 🇺🇸_US_美国_19 - 3ms
     type: vmess
     server: 104.18.114.122
     port: 2086
@@ -653,7 +521,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_20 - 18ms
+  - name: 🇺🇸_US_美国_20 - 3ms
     type: vmess
     server: 104.18.114.108
     port: 2086
@@ -666,7 +534,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_21 - 18ms
+  - name: 🇺🇸_US_美国_21 - 3ms
     type: vmess
     server: 104.21.238.182
     port: 2086
@@ -679,7 +547,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇺🇸_US_美国_22 - 18ms
+  - name: 🇺🇸_US_美国_22 - 3ms
     type: vmess
     server: 104.18.114.111
     port: 2086
@@ -692,7 +560,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 390ms
+  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 320ms
     type: vmess
     server: v24.hdacd.com
     port: 30824
@@ -701,7 +569,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 332ms
+  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 346ms
     type: vmess
     server: world.t.51guangtaobao.com
     port: 2510
@@ -710,7 +578,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_US_美国 - 24ms
+  - name: 🇺🇸_US_美国 - 50ms
     type: vmess
     server: 82.198.246.214
     port: 180
@@ -719,7 +587,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸_US_美国_1 - 18ms
+  - name: 🇺🇸_US_美国_1 - 3ms
     type: vmess
     server: 104.26.0.206
     port: 2086
@@ -732,7 +600,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: p1.613055.xyz
-  - name: 🇺🇸_US_美国_4 - 18ms
+  - name: 🇺🇸_US_美国_4 - 2ms
     type: vmess
     server: 104.26.0.15
     port: 8880
@@ -745,7 +613,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m125.106778.xyz
-  - name: 🇺🇸_US_美国_7 - 24ms
+  - name: 🇺🇸_US_美国_7 - 25ms
     type: vmess
     server: 162.159.45.53
     port: 2086
@@ -758,7 +626,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: e104.808075.xyz
-  - name: 🇺🇸_US_美国_9 - 18ms
+  - name: 🇺🇸_US_美国_9 - 3ms
     type: vmess
     server: 104.26.0.100
     port: 8880
@@ -771,7 +639,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_10 - 24ms
+  - name: 🇺🇸_US_美国_10 - 27ms
     type: vmess
     server: 162.159.45.47
     port: 8880
@@ -784,7 +652,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 18ms
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 2ms
     type: vmess
     server: 104.18.114.56
     port: 8880
@@ -797,7 +665,7 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: m1.106778.xyz
-  - name: 🇺🇸_US_美国_11 - 24ms
+  - name: 🇺🇸_US_美国_11 - 27ms
     type: vmess
     server: 162.159.45.181
     port: 2086
@@ -810,7 +678,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: e104.808075.xyz
-  - name: 🇺🇸_US_美国_12 - 24ms
+  - name: 🇺🇸_US_美国_12 - 26ms
     type: vmess
     server: 162.159.45.77
     port: 8880
@@ -823,7 +691,7 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: m129.106778.xyz
-  - name: 🇺🇸_US_美国_13 - 18ms
+  - name: 🇺🇸_US_美国_13 - 3ms
     type: vmess
     server: 104.26.0.87
     port: 2086
@@ -840,153 +708,129 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 18ms
-      - TG-@vvkj11 - 18ms
-      - 未知 VMESS-124 | free-nodes - 582ms
-      - 未知 VMESS-125 | free-nodes - 36ms
-      - 未知 VMESS-126 | free-nodes - 36ms
-      - 未知 VMESS-127 | free-nodes - 126ms
-      - 未知 VMESS-128 | free-nodes - 122ms
-      - 未知 VMESS-129 | free-nodes - 36ms
-      - 未知 VMESS-130 | free-nodes - 121ms
-      - 未知 VMESS-131 | free-nodes - 207ms
-      - 未知 VMESS-132 | free-nodes - 48ms
-      - 未知 VMESS-133 | free-nodes - 188ms
-      - 未知 VMESS-134 | free-nodes - 48ms
-      - 未知 VMESS-135 | free-nodes - 49ms
-      - 未知 VMESS-136 | free-nodes - 907ms
-      - 未知 VMESS-137 | free-nodes - 55ms
-      - 未知 VMESS-138 | free-nodes - 577ms
-      - 未知 VMESS-139 | free-nodes - 373ms
-      - 未知 VMESS-140 | free-nodes - 761ms
-      - 未知 VMESS-176 | free-nodes - 565ms
-      - 英国 V2CROSS.COM - 24ms
-      - 德国 - 24ms
-      - 美国 - 24ms
-      - 美国 - 24ms
-      - 英国 - 24ms
-      - 英国 - 24ms
-      - 美国 - 24ms
-      - 中国香港 - 278ms
-      - 马来西亚 - 374ms
-      - 美国 - 956ms
-      - 荷兰 - 833ms
-      - 美国 - 20ms
-      - 未知地区 - 877ms
-      - 未知地区 - 1011ms
-      - 未知地区 - 1037ms
-      - 🇮🇪IE_1|1.1MB/s - 350ms
-      - 🇺🇸_US_美国_1 - 19ms
-      - 🇺🇸_US_美国_2 - 18ms
-      - 🇺🇸_US_美国_3 - 18ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 18ms
-      - 🇺🇸_US_美国_4 - 19ms
-      - 🇺🇸_US_美国_5 - 24ms
-      - 🇺🇸_US_美国_6 - 18ms
-      - 🇺🇸_US_美国_8 - 18ms
-      - 🇺🇸_US_美国_9 - 18ms
-      - 🇺🇸_US_美国_10 - 19ms
-      - 🇺🇸_US_美国_11 - 18ms
-      - 🇺🇸_US_美国_12 - 19ms
-      - 🇺🇸_US_美国_13 - 18ms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 18ms
-      - 🇺🇸_US_美国_14 - 18ms
-      - 🇺🇸_US_美国_15 - 18ms
-      - 🇺🇸_US_美国_16 - 18ms
-      - 🇺🇸_US_美国_17 - 18ms
-      - 🇺🇸_US_美国_18 - 18ms
-      - 🇺🇸_US_美国_19 - 18ms
-      - 🇺🇸_US_美国_20 - 18ms
-      - 🇺🇸_US_美国_21 - 18ms
-      - 🇺🇸_US_美国_22 - 18ms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 390ms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 332ms
-      - 🇺🇸_US_美国 - 24ms
-      - 🇺🇸_US_美国_1 - 18ms
-      - 🇺🇸_US_美国_4 - 18ms
-      - 🇺🇸_US_美国_7 - 24ms
-      - 🇺🇸_US_美国_9 - 18ms
-      - 🇺🇸_US_美国_10 - 24ms
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 18ms
-      - 🇺🇸_US_美国_11 - 24ms
-      - 🇺🇸_US_美国_12 - 24ms
-      - 🇺🇸_US_美国_13 - 18ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
+      - TG-@vvkj11 - 3ms
+      - 未知 VMESS-132 | free-nodes - 23ms
+      - 未知 VMESS-133 | free-nodes - 488ms
+      - 未知 VMESS-134 | free-nodes - 253ms
+      - 未知 VMESS-170 | free-nodes - 109ms
+      - 英国 V2CROSS.COM - 50ms
+      - 伊朗 V2CROSS.COM - 259ms
+      - 德国 - 50ms
+      - 美国 - 49ms
+      - 美国 - 48ms
+      - 英国 - 50ms
+      - 英国 - 50ms
+      - 美国 - 50ms
+      - 中国香港 - 266ms
+      - 马来西亚 - 291ms
+      - 美国 - 146ms
+      - 荷兰 - 273ms
+      - 美国 - 3ms
+      - 未知地区 - 627ms
+      - 未知地区 - 630ms
+      - 未知地区 - 748ms
+      - 🇮🇪IE_1|1.2MB/s - 860ms
+      - 🇮🇪IE_2|1.4MB/s - 871ms
+      - 🇺🇸_US_美国_1 - 2ms
+      - 🇺🇸_US_美国_2 - 3ms
+      - 🇺🇸_US_美国_3 - 3ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸_US_美国_4 - 3ms
+      - 🇺🇸_US_美国_5 - 25ms
+      - 🇺🇸_US_美国_6 - 4ms
+      - 🇺🇸_US_美国_8 - 3ms
+      - 🇺🇸_US_美国_9 - 3ms
+      - 🇺🇸_US_美国_10 - 2ms
+      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_12 - 3ms
+      - 🇺🇸_US_美国_13 - 3ms
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸_US_美国_14 - 3ms
+      - 🇺🇸_US_美国_15 - 3ms
+      - 🇺🇸_US_美国_16 - 4ms
+      - 🇺🇸_US_美国_17 - 3ms
+      - 🇺🇸_US_美国_18 - 3ms
+      - 🇺🇸_US_美国_19 - 3ms
+      - 🇺🇸_US_美国_20 - 3ms
+      - 🇺🇸_US_美国_21 - 3ms
+      - 🇺🇸_US_美国_22 - 3ms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 320ms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 346ms
+      - 🇺🇸_US_美国 - 50ms
+      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_4 - 2ms
+      - 🇺🇸_US_美国_7 - 25ms
+      - 🇺🇸_US_美国_9 - 3ms
+      - 🇺🇸_US_美国_10 - 27ms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 2ms
+      - 🇺🇸_US_美国_11 - 27ms
+      - 🇺🇸_US_美国_12 - 26ms
+      - 🇺🇸_US_美国_13 - 3ms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
     type: select
     proxies:
       - Auto Select
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 18ms
-      - TG-@vvkj11 - 18ms
-      - 未知 VMESS-124 | free-nodes - 582ms
-      - 未知 VMESS-125 | free-nodes - 36ms
-      - 未知 VMESS-126 | free-nodes - 36ms
-      - 未知 VMESS-127 | free-nodes - 126ms
-      - 未知 VMESS-128 | free-nodes - 122ms
-      - 未知 VMESS-129 | free-nodes - 36ms
-      - 未知 VMESS-130 | free-nodes - 121ms
-      - 未知 VMESS-131 | free-nodes - 207ms
-      - 未知 VMESS-132 | free-nodes - 48ms
-      - 未知 VMESS-133 | free-nodes - 188ms
-      - 未知 VMESS-134 | free-nodes - 48ms
-      - 未知 VMESS-135 | free-nodes - 49ms
-      - 未知 VMESS-136 | free-nodes - 907ms
-      - 未知 VMESS-137 | free-nodes - 55ms
-      - 未知 VMESS-138 | free-nodes - 577ms
-      - 未知 VMESS-139 | free-nodes - 373ms
-      - 未知 VMESS-140 | free-nodes - 761ms
-      - 未知 VMESS-176 | free-nodes - 565ms
-      - 英国 V2CROSS.COM - 24ms
-      - 德国 - 24ms
-      - 美国 - 24ms
-      - 美国 - 24ms
-      - 英国 - 24ms
-      - 英国 - 24ms
-      - 美国 - 24ms
-      - 中国香港 - 278ms
-      - 马来西亚 - 374ms
-      - 美国 - 956ms
-      - 荷兰 - 833ms
-      - 美国 - 20ms
-      - 未知地区 - 877ms
-      - 未知地区 - 1011ms
-      - 未知地区 - 1037ms
-      - 🇮🇪IE_1|1.1MB/s - 350ms
-      - 🇺🇸_US_美国_1 - 19ms
-      - 🇺🇸_US_美国_2 - 18ms
-      - 🇺🇸_US_美国_3 - 18ms
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 18ms
-      - 🇺🇸_US_美国_4 - 19ms
-      - 🇺🇸_US_美国_5 - 24ms
-      - 🇺🇸_US_美国_6 - 18ms
-      - 🇺🇸_US_美国_8 - 18ms
-      - 🇺🇸_US_美国_9 - 18ms
-      - 🇺🇸_US_美国_10 - 19ms
-      - 🇺🇸_US_美国_11 - 18ms
-      - 🇺🇸_US_美国_12 - 19ms
-      - 🇺🇸_US_美国_13 - 18ms
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 18ms
-      - 🇺🇸_US_美国_14 - 18ms
-      - 🇺🇸_US_美国_15 - 18ms
-      - 🇺🇸_US_美国_16 - 18ms
-      - 🇺🇸_US_美国_17 - 18ms
-      - 🇺🇸_US_美国_18 - 18ms
-      - 🇺🇸_US_美国_19 - 18ms
-      - 🇺🇸_US_美国_20 - 18ms
-      - 🇺🇸_US_美国_21 - 18ms
-      - 🇺🇸_US_美国_22 - 18ms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 390ms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 332ms
-      - 🇺🇸_US_美国 - 24ms
-      - 🇺🇸_US_美国_1 - 18ms
-      - 🇺🇸_US_美国_4 - 18ms
-      - 🇺🇸_US_美国_7 - 24ms
-      - 🇺🇸_US_美国_9 - 18ms
-      - 🇺🇸_US_美国_10 - 24ms
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 18ms
-      - 🇺🇸_US_美国_11 - 24ms
-      - 🇺🇸_US_美国_12 - 24ms
-      - 🇺🇸_US_美国_13 - 18ms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - 2ms
+      - TG-@vvkj11 - 3ms
+      - 未知 VMESS-132 | free-nodes - 23ms
+      - 未知 VMESS-133 | free-nodes - 488ms
+      - 未知 VMESS-134 | free-nodes - 253ms
+      - 未知 VMESS-170 | free-nodes - 109ms
+      - 英国 V2CROSS.COM - 50ms
+      - 伊朗 V2CROSS.COM - 259ms
+      - 德国 - 50ms
+      - 美国 - 49ms
+      - 美国 - 48ms
+      - 英国 - 50ms
+      - 英国 - 50ms
+      - 美国 - 50ms
+      - 中国香港 - 266ms
+      - 马来西亚 - 291ms
+      - 美国 - 146ms
+      - 荷兰 - 273ms
+      - 美国 - 3ms
+      - 未知地区 - 627ms
+      - 未知地区 - 630ms
+      - 未知地区 - 748ms
+      - 🇮🇪IE_1|1.2MB/s - 860ms
+      - 🇮🇪IE_2|1.4MB/s - 871ms
+      - 🇺🇸_US_美国_1 - 2ms
+      - 🇺🇸_US_美国_2 - 3ms
+      - 🇺🇸_US_美国_3 - 3ms
+      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸_US_美国_4 - 3ms
+      - 🇺🇸_US_美国_5 - 25ms
+      - 🇺🇸_US_美国_6 - 4ms
+      - 🇺🇸_US_美国_8 - 3ms
+      - 🇺🇸_US_美国_9 - 3ms
+      - 🇺🇸_US_美国_10 - 2ms
+      - 🇺🇸_US_美国_11 - 2ms
+      - 🇺🇸_US_美国_12 - 3ms
+      - 🇺🇸_US_美国_13 - 3ms
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大 - 3ms
+      - 🇺🇸_US_美国_14 - 3ms
+      - 🇺🇸_US_美国_15 - 3ms
+      - 🇺🇸_US_美国_16 - 4ms
+      - 🇺🇸_US_美国_17 - 3ms
+      - 🇺🇸_US_美国_18 - 3ms
+      - 🇺🇸_US_美国_19 - 3ms
+      - 🇺🇸_US_美国_20 - 3ms
+      - 🇺🇸_US_美国_21 - 3ms
+      - 🇺🇸_US_美国_22 - 3ms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - 320ms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - 346ms
+      - 🇺🇸_US_美国 - 50ms
+      - 🇺🇸_US_美国_1 - 3ms
+      - 🇺🇸_US_美国_4 - 2ms
+      - 🇺🇸_US_美国_7 - 25ms
+      - 🇺🇸_US_美国_9 - 3ms
+      - 🇺🇸_US_美国_10 - 27ms
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯 - 2ms
+      - 🇺🇸_US_美国_11 - 27ms
+      - 🇺🇸_US_美国_12 - 26ms
+      - 🇺🇸_US_美国_13 - 3ms
 rules:
   - MATCH,Proxy
