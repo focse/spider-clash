@@ -44,7 +44,16 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 未知 VMESS-134 | free-nodes - undefinedms
+  - name: 未知 VMESS-141 | free-nodes - undefinedms
+    type: vmess
+    server: 129.146.143.80
+    port: 48111
+    uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-142 | free-nodes - undefinedms
     type: vmess
     server: 51.254.133.152
     port: 80
@@ -57,7 +66,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-135 | free-nodes - undefinedms
+  - name: 未知 VMESS-143 | free-nodes - undefinedms
     type: vmess
     server: 57.151.100.27
     port: 10086
@@ -66,7 +75,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-136 | free-nodes - undefinedms
+  - name: 未知 VMESS-144 | free-nodes - undefinedms
+    type: vmess
+    server: node-de.connectsuite.org
+    port: 2053
+    uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 未知 VMESS-145 | free-nodes - undefinedms
     type: vmess
     server: renderer-stream-1-411.mirra.now
     port: 443
@@ -79,12 +97,43 @@ proxies:
       path: /api/v1/gpu-stream/socket
       headers:
         Host: renderer-stream-1-411.mirra.now
-  - name: 🇸🇬SG_3|3.6MB/s - undefinedms
+  - name: 🇩🇪DE_3|1.8MB/s - undefinedms
     type: vmess
-    server: 103.182.97.12
-    port: 30845
+    server: jd.103672.xyz
+    port: 8080
+    uuid: c14a83db-f333-452e-acff-93b8f7160b10
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: dedasabo.103466.xyz
+  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+    type: vmess
+    server: world.t.51guangtaobao.com
+    port: 2510
+    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
+    type: vmess
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6004
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
     cipher: auto
     tls: false
     network: tcp
@@ -139,33 +188,6 @@ proxies:
     port: 30836
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-    type: vmess
-    server: world.t.51guangtaobao.com
-    port: 2510
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6004
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
     cipher: auto
     tls: false
     network: tcp
@@ -644,19 +666,21 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 未知 VMESS-134 | free-nodes - undefinedms
-      - 未知 VMESS-135 | free-nodes - undefinedms
-      - 未知 VMESS-136 | free-nodes - undefinedms
-      - 🇸🇬SG_3|3.6MB/s - undefinedms
+      - 未知 VMESS-141 | free-nodes - undefinedms
+      - 未知 VMESS-142 | free-nodes - undefinedms
+      - 未知 VMESS-143 | free-nodes - undefinedms
+      - 未知 VMESS-144 | free-nodes - undefinedms
+      - 未知 VMESS-145 | free-nodes - undefinedms
+      - 🇩🇪DE_3|1.8MB/s - undefinedms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -702,19 +726,21 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 未知 VMESS-134 | free-nodes - undefinedms
-      - 未知 VMESS-135 | free-nodes - undefinedms
-      - 未知 VMESS-136 | free-nodes - undefinedms
-      - 🇸🇬SG_3|3.6MB/s - undefinedms
+      - 未知 VMESS-141 | free-nodes - undefinedms
+      - 未知 VMESS-142 | free-nodes - undefinedms
+      - 未知 VMESS-143 | free-nodes - undefinedms
+      - 未知 VMESS-144 | free-nodes - undefinedms
+      - 未知 VMESS-145 | free-nodes - undefinedms
+      - 🇩🇪DE_3|1.8MB/s - undefinedms
+      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
       - 🇭🇰_HK_中国香港 - undefinedms
       - 🇺🇸_US_美国 - undefinedms
       - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-      - 🇲🇾_MY_马来西亚->🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 - undefinedms
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
