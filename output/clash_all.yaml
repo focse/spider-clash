@@ -18,7 +18,20 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 未知 VMESS-314 | free-nodes - undefinedms
+  - name: 美国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 69.84.182.49
+    port: 80
+    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  - name: 未知 VMESS-339 | free-nodes - undefinedms
     type: vmess
     server: 163.223.224.68
     port: 49515
@@ -31,7 +44,7 @@ proxies:
       path: /
       headers:
         Host: 163.223.224.68
-  - name: 未知 VMESS-315 | free-nodes - undefinedms
+  - name: 未知 VMESS-340 | free-nodes - undefinedms
     type: vmess
     server: 163.223.224.68
     port: 49515
@@ -44,7 +57,7 @@ proxies:
       path: /
       headers:
         Host: 163.223.224.68
-  - name: 未知 VMESS-316 | free-nodes - undefinedms
+  - name: 未知 VMESS-341 | free-nodes - undefinedms
     type: vmess
     server: 163.223.224.68
     port: 49515
@@ -57,7 +70,7 @@ proxies:
       path: /
       headers:
         Host: 163.223.224.68
-  - name: 未知 VMESS-317 | free-nodes - undefinedms
+  - name: 未知 VMESS-342 | free-nodes - undefinedms
     type: vmess
     server: 186.244.208.78
     port: 30022
@@ -66,7 +79,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-318 | free-nodes - undefinedms
+  - name: 未知 VMESS-343 | free-nodes - undefinedms
+    type: vmess
+    server: 2.26.231.87
+    port: 110
+    uuid: 6d6595b5-ff7f-4995-abde-b1187299a63d
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-344 | free-nodes - undefinedms
     type: vmess
     server: 23.141.204.132
     port: 29633
@@ -75,7 +97,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-319 | free-nodes - undefinedms
+  - name: 未知 VMESS-345 | free-nodes - undefinedms
     type: vmess
     server: 43.167.162.191
     port: 25944
@@ -84,7 +106,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-320 | free-nodes - undefinedms
+  - name: 未知 VMESS-346 | free-nodes - undefinedms
     type: vmess
     server: 43.167.162.191
     port: 34017
@@ -93,7 +115,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-321 | free-nodes - undefinedms
+  - name: 未知 VMESS-347 | free-nodes - undefinedms
     type: vmess
     server: 45.63.75.211
     port: 44855
@@ -106,7 +128,7 @@ proxies:
       path: /5164f226
       headers:
         Host: 45.63.75.211
-  - name: 未知 VMESS-322 | free-nodes - undefinedms
+  - name: 未知 VMESS-348 | free-nodes - undefinedms
     type: vmess
     server: 51.254.133.152
     port: 80
@@ -119,7 +141,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-323 | free-nodes - undefinedms
+  - name: 未知 VMESS-349 | free-nodes - undefinedms
     type: vmess
     server: 65.109.221.245
     port: 33366
@@ -128,7 +150,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-324 | free-nodes - undefinedms
+  - name: 未知 VMESS-350 | free-nodes - undefinedms
     type: vmess
     server: 65.109.221.245
     port: 33366
@@ -137,7 +159,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-325 | free-nodes - undefinedms
+  - name: 未知 VMESS-351 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -150,7 +172,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-326 | free-nodes - undefinedms
+  - name: 未知 VMESS-352 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -163,7 +185,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-327 | free-nodes - undefinedms
+  - name: 未知 VMESS-353 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -176,7 +198,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-328 | free-nodes - undefinedms
+  - name: 未知 VMESS-354 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -189,7 +211,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-329 | free-nodes - undefinedms
+  - name: 未知 VMESS-355 | free-nodes - undefinedms
     type: vmess
     server: 8.211.149.30
     port: 443
@@ -202,7 +224,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-330 | free-nodes - undefinedms
+  - name: 未知 VMESS-356 | free-nodes - undefinedms
     type: vmess
     server: 89.167.82.102
     port: 4443
@@ -211,7 +233,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-331 | free-nodes - undefinedms
+  - name: 未知 VMESS-357 | free-nodes - undefinedms
     type: vmess
     server: 89.167.82.102
     port: 8880
@@ -220,7 +242,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-332 | free-nodes - undefinedms
+  - name: 未知 VMESS-358 | free-nodes - undefinedms
     type: vmess
     server: 89.167.82.102
     port: 4443
@@ -229,7 +251,16 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-333 | free-nodes - undefinedms
+  - name: 未知 VMESS-359 | free-nodes - undefinedms
+    type: vmess
+    server: 89.167.82.102
+    port: 4443
+    uuid: 88553247-c1c8-4e80-9db6-56bff7efc33b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 未知 VMESS-360 | free-nodes - undefinedms
     type: vmess
     server: 96.47.230.5
     port: 54840
@@ -242,7 +273,7 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-334 | free-nodes - undefinedms
+  - name: 未知 VMESS-361 | free-nodes - undefinedms
     type: vmess
     server: 96.47.230.5
     port: 54840
@@ -255,7 +286,16 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-335 | free-nodes - undefinedms
+  - name: 未知 VMESS-362 | free-nodes - undefinedms
+    type: vmess
+    server: atiins.com.tr
+    port: 443
+    uuid: 97775936-05ea-4fea-8562-e9eb98559790
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 未知 VMESS-363 | free-nodes - undefinedms
     type: vmess
     server: myvpshosting.name.ng
     port: 80
@@ -268,7 +308,7 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-336 | free-nodes - undefinedms
+  - name: 未知 VMESS-364 | free-nodes - undefinedms
     type: vmess
     server: myvpshosting.name.ng
     port: 80
@@ -281,7 +321,7 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-337 | free-nodes - undefinedms
+  - name: 未知 VMESS-365 | free-nodes - undefinedms
     type: vmess
     server: myvpshosting.name.ng
     port: 80
@@ -294,7 +334,7 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-338 | free-nodes - undefinedms
+  - name: 未知 VMESS-366 | free-nodes - undefinedms
     type: vmess
     server: myvpshosting.name.ng
     port: 80
@@ -307,7 +347,7 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-339 | free-nodes - undefinedms
+  - name: 未知 VMESS-367 | free-nodes - undefinedms
     type: vmess
     server: nlt.reata.ir
     port: 1020
@@ -316,7 +356,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-340 | free-nodes - undefinedms
+  - name: 未知 VMESS-368 | free-nodes - undefinedms
     type: vmess
     server: nlt.reata.ir
     port: 1020
@@ -325,16 +365,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-341 | free-nodes - undefinedms
-    type: vmess
-    server: plan.opann.ir
-    port: 57366
-    uuid: 549bc59c-ffb6-42c6-961e-f7ec5f735284
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-342 | free-nodes - undefinedms
+  - name: 未知 VMESS-369 | free-nodes - undefinedms
     type: vmess
     server: uk.vpnjantit.com
     port: 10000
@@ -347,25 +378,20 @@ proxies:
       path: /vpnjantit
       headers:
         Host: uk.vpnjantit.com
-  - name: 未知 VMESS-343 | free-nodes - undefinedms
+  - name: 未知 VMESS-370 | free-nodes - undefinedms
     type: vmess
-    server: 89.167.82.102
-    port: 8880
-    uuid: 38d5f36b-b393-4e3f-a150-4937935c6bb1
+    server: 69.84.182.49
+    port: 80
+    uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
     alterId: 0
     cipher: auto
     tls: false
-    network: tcp
-  - name: 未知 VMESS-344 | free-nodes - undefinedms
-    type: vmess
-    server: nlt.reata.ir
-    port: 1020
-    uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 未知 VMESS-345 | free-nodes - undefinedms
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+  - name: 未知 VMESS-371 | free-nodes - undefinedms
     type: vmess
     server: 186.244.208.78
     port: 30022
@@ -374,7 +400,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-346 | free-nodes - undefinedms
+  - name: 未知 VMESS-372 | free-nodes - undefinedms
     type: vmess
     server: 23.141.204.132
     port: 29633
@@ -383,7 +409,7 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 未知 VMESS-347 | free-nodes - undefinedms
+  - name: 未知 VMESS-373 | free-nodes - undefinedms
     type: vmess
     server: 160.250.247.70
     port: 49178
@@ -392,19 +418,6 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 CloudFlare节点 - undefinedms
-    type: vmess
-    server: 104.16.0.0
-    port: 443
-    uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /ws-gongyi
-      headers:
-        Host: 104.16.0.0
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -431,6 +444,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇺🇸US_4|1.1MB/s - undefinedms
+    type: vmess
+    server: 186.241.75.40.sslip.io
+    port: 443
+    uuid: a28cdd41-6795-4c5b-86f7-15a05a5d60f7
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /f76f8e3dcb66b6d94b59f3ad
+      headers:
+        Host: 186.241.75.40.sslip.io
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -958,31 +984,7 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 未知 VMESS-314 | free-nodes - undefinedms
-      - 未知 VMESS-315 | free-nodes - undefinedms
-      - 未知 VMESS-316 | free-nodes - undefinedms
-      - 未知 VMESS-317 | free-nodes - undefinedms
-      - 未知 VMESS-318 | free-nodes - undefinedms
-      - 未知 VMESS-319 | free-nodes - undefinedms
-      - 未知 VMESS-320 | free-nodes - undefinedms
-      - 未知 VMESS-321 | free-nodes - undefinedms
-      - 未知 VMESS-322 | free-nodes - undefinedms
-      - 未知 VMESS-323 | free-nodes - undefinedms
-      - 未知 VMESS-324 | free-nodes - undefinedms
-      - 未知 VMESS-325 | free-nodes - undefinedms
-      - 未知 VMESS-326 | free-nodes - undefinedms
-      - 未知 VMESS-327 | free-nodes - undefinedms
-      - 未知 VMESS-328 | free-nodes - undefinedms
-      - 未知 VMESS-329 | free-nodes - undefinedms
-      - 未知 VMESS-330 | free-nodes - undefinedms
-      - 未知 VMESS-331 | free-nodes - undefinedms
-      - 未知 VMESS-332 | free-nodes - undefinedms
-      - 未知 VMESS-333 | free-nodes - undefinedms
-      - 未知 VMESS-334 | free-nodes - undefinedms
-      - 未知 VMESS-335 | free-nodes - undefinedms
-      - 未知 VMESS-336 | free-nodes - undefinedms
-      - 未知 VMESS-337 | free-nodes - undefinedms
-      - 未知 VMESS-338 | free-nodes - undefinedms
+      - 美国 V2CROSS.COM - undefinedms
       - 未知 VMESS-339 | free-nodes - undefinedms
       - 未知 VMESS-340 | free-nodes - undefinedms
       - 未知 VMESS-341 | free-nodes - undefinedms
@@ -992,9 +994,35 @@ proxy-groups:
       - 未知 VMESS-345 | free-nodes - undefinedms
       - 未知 VMESS-346 | free-nodes - undefinedms
       - 未知 VMESS-347 | free-nodes - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 未知 VMESS-348 | free-nodes - undefinedms
+      - 未知 VMESS-349 | free-nodes - undefinedms
+      - 未知 VMESS-350 | free-nodes - undefinedms
+      - 未知 VMESS-351 | free-nodes - undefinedms
+      - 未知 VMESS-352 | free-nodes - undefinedms
+      - 未知 VMESS-353 | free-nodes - undefinedms
+      - 未知 VMESS-354 | free-nodes - undefinedms
+      - 未知 VMESS-355 | free-nodes - undefinedms
+      - 未知 VMESS-356 | free-nodes - undefinedms
+      - 未知 VMESS-357 | free-nodes - undefinedms
+      - 未知 VMESS-358 | free-nodes - undefinedms
+      - 未知 VMESS-359 | free-nodes - undefinedms
+      - 未知 VMESS-360 | free-nodes - undefinedms
+      - 未知 VMESS-361 | free-nodes - undefinedms
+      - 未知 VMESS-362 | free-nodes - undefinedms
+      - 未知 VMESS-363 | free-nodes - undefinedms
+      - 未知 VMESS-364 | free-nodes - undefinedms
+      - 未知 VMESS-365 | free-nodes - undefinedms
+      - 未知 VMESS-366 | free-nodes - undefinedms
+      - 未知 VMESS-367 | free-nodes - undefinedms
+      - 未知 VMESS-368 | free-nodes - undefinedms
+      - 未知 VMESS-369 | free-nodes - undefinedms
+      - 未知 VMESS-370 | free-nodes - undefinedms
+      - 未知 VMESS-371 | free-nodes - undefinedms
+      - 未知 VMESS-372 | free-nodes - undefinedms
+      - 未知 VMESS-373 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_4|1.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1044,31 +1072,7 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 未知 VMESS-314 | free-nodes - undefinedms
-      - 未知 VMESS-315 | free-nodes - undefinedms
-      - 未知 VMESS-316 | free-nodes - undefinedms
-      - 未知 VMESS-317 | free-nodes - undefinedms
-      - 未知 VMESS-318 | free-nodes - undefinedms
-      - 未知 VMESS-319 | free-nodes - undefinedms
-      - 未知 VMESS-320 | free-nodes - undefinedms
-      - 未知 VMESS-321 | free-nodes - undefinedms
-      - 未知 VMESS-322 | free-nodes - undefinedms
-      - 未知 VMESS-323 | free-nodes - undefinedms
-      - 未知 VMESS-324 | free-nodes - undefinedms
-      - 未知 VMESS-325 | free-nodes - undefinedms
-      - 未知 VMESS-326 | free-nodes - undefinedms
-      - 未知 VMESS-327 | free-nodes - undefinedms
-      - 未知 VMESS-328 | free-nodes - undefinedms
-      - 未知 VMESS-329 | free-nodes - undefinedms
-      - 未知 VMESS-330 | free-nodes - undefinedms
-      - 未知 VMESS-331 | free-nodes - undefinedms
-      - 未知 VMESS-332 | free-nodes - undefinedms
-      - 未知 VMESS-333 | free-nodes - undefinedms
-      - 未知 VMESS-334 | free-nodes - undefinedms
-      - 未知 VMESS-335 | free-nodes - undefinedms
-      - 未知 VMESS-336 | free-nodes - undefinedms
-      - 未知 VMESS-337 | free-nodes - undefinedms
-      - 未知 VMESS-338 | free-nodes - undefinedms
+      - 美国 V2CROSS.COM - undefinedms
       - 未知 VMESS-339 | free-nodes - undefinedms
       - 未知 VMESS-340 | free-nodes - undefinedms
       - 未知 VMESS-341 | free-nodes - undefinedms
@@ -1078,9 +1082,35 @@ proxy-groups:
       - 未知 VMESS-345 | free-nodes - undefinedms
       - 未知 VMESS-346 | free-nodes - undefinedms
       - 未知 VMESS-347 | free-nodes - undefinedms
-      - 美国 CloudFlare节点 - undefinedms
+      - 未知 VMESS-348 | free-nodes - undefinedms
+      - 未知 VMESS-349 | free-nodes - undefinedms
+      - 未知 VMESS-350 | free-nodes - undefinedms
+      - 未知 VMESS-351 | free-nodes - undefinedms
+      - 未知 VMESS-352 | free-nodes - undefinedms
+      - 未知 VMESS-353 | free-nodes - undefinedms
+      - 未知 VMESS-354 | free-nodes - undefinedms
+      - 未知 VMESS-355 | free-nodes - undefinedms
+      - 未知 VMESS-356 | free-nodes - undefinedms
+      - 未知 VMESS-357 | free-nodes - undefinedms
+      - 未知 VMESS-358 | free-nodes - undefinedms
+      - 未知 VMESS-359 | free-nodes - undefinedms
+      - 未知 VMESS-360 | free-nodes - undefinedms
+      - 未知 VMESS-361 | free-nodes - undefinedms
+      - 未知 VMESS-362 | free-nodes - undefinedms
+      - 未知 VMESS-363 | free-nodes - undefinedms
+      - 未知 VMESS-364 | free-nodes - undefinedms
+      - 未知 VMESS-365 | free-nodes - undefinedms
+      - 未知 VMESS-366 | free-nodes - undefinedms
+      - 未知 VMESS-367 | free-nodes - undefinedms
+      - 未知 VMESS-368 | free-nodes - undefinedms
+      - 未知 VMESS-369 | free-nodes - undefinedms
+      - 未知 VMESS-370 | free-nodes - undefinedms
+      - 未知 VMESS-371 | free-nodes - undefinedms
+      - 未知 VMESS-372 | free-nodes - undefinedms
+      - 未知 VMESS-373 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇺🇸US_4|1.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
