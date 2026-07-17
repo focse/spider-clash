@@ -44,20 +44,91 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 德国 法尔肯施泰因HETZNER - undefinedms
+  - name: 🇭🇰_香港_142 - undefinedms
     type: vmess
-    server: me.echo-license.gr
-    port: 14991
-    uuid: fbd2b2f1-af4a-4e5f-9556-af37edea9db5
+    server: 47.83.221.185
+    port: 80
+    uuid: 771a590c-5eac-5732-b796-17251132f8d2
     alterId: 0
     cipher: auto
     tls: false
     network: tcp
-  - name: 美国 V2CROSS.COM - undefinedms
+  - name: 🇭🇰_香港_144 - undefinedms
     type: vmess
-    server: c87s5.portablesubmarines.com
-    port: 18339
-    uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+    server: 47.76.127.88
+    port: 5566
+    uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_美国_147 - undefinedms
+    type: vmess
+    server: guanwang.awsno.com
+    port: 443
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: tcp
+  - name: 🇭🇰_香港_152 - undefinedms
+    type: vmess
+    server: 45.158.23.138
+    port: 27272
+    uuid: 1c7c0c72-6bc1-4e51-ada8-0e5570bb4780
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_香港_153 - undefinedms
+    type: vmess
+    server: v10.zgtfqs.click
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🏳️_未知_399 - undefinedms
+    type: vmess
+    server: 4cdn.njkrpl.com
+    port: 443
+    uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 4cdn.njkrpl.com
+  - name: 🇭🇰_香港_400 - undefinedms
+    type: vmess
+    server: n1747624274.4u9ma.icu
+    port: 443
+    uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: n1747624274.4u9ma.icu
+  - name: 🇺🇸US_2|2.6MB/s - undefinedms
+    type: vmess
+    server: v8.hdacd.com
+    port: 30808
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_6|1.7MB/s - undefinedms
+    type: vmess
+    server: c722s801.portablesubmarines.com
+    port: 16025
+    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
     alterId: 0
     cipher: auto
     tls: false
@@ -591,8 +662,15 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 德国 法尔肯施泰因HETZNER - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 🇭🇰_香港_142 - undefinedms
+      - 🇭🇰_香港_144 - undefinedms
+      - 🇺🇸_美国_147 - undefinedms
+      - 🇭🇰_香港_152 - undefinedms
+      - 🇭🇰_香港_153 - undefinedms
+      - 🏳️_未知_399 - undefinedms
+      - 🇭🇰_香港_400 - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -644,8 +722,15 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 德国 法尔肯施泰因HETZNER - undefinedms
-      - 美国 V2CROSS.COM - undefinedms
+      - 🇭🇰_香港_142 - undefinedms
+      - 🇭🇰_香港_144 - undefinedms
+      - 🇺🇸_美国_147 - undefinedms
+      - 🇭🇰_香港_152 - undefinedms
+      - 🇭🇰_香港_153 - undefinedms
+      - 🏳️_未知_399 - undefinedms
+      - 🇭🇰_香港_400 - undefinedms
+      - 🇺🇸US_2|2.6MB/s - undefinedms
+      - 🇺🇸US_6|1.7MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
