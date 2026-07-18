@@ -44,6 +44,24 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: 93.180.134.52
+    port: 2078
+    uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸US_7|3.3MB/s - undefinedms
+    type: vmess
+    server: c722s801.portablesubmarines.com
+    port: 16025
+    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: raw
   - name: 🇭🇰_香港_142 - undefinedms
     type: vmess
     server: 47.83.221.185
@@ -115,21 +133,57 @@ proxies:
       path: /
       headers:
         Host: n1747624274.4u9ma.icu
-  - name: 🇺🇸US_2|2.6MB/s - undefinedms
+  - name: 🇺🇸_US_美国 - undefinedms
     type: vmess
-    server: v8.hdacd.com
-    port: 30808
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇭🇰_HK_中国香港 - undefinedms
+    type: vmess
+    server: 154.37.223.19
+    port: 56972
+    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: http
+  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+    type: vmess
+    server: v35.hdacd.com
+    port: 30835
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇺🇸US_6|1.7MB/s - undefinedms
+  - name: 🇭🇰_HK_中国香港 - undefinedms
     type: vmess
-    server: c722s801.portablesubmarines.com
-    port: 16025
-    uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+    server: v10.hdacd.com
+    port: 30807
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇺🇸_US_美国 - undefinedms
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     network: tcp
@@ -601,60 +655,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: p132.613055.xyz
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: 154.37.223.19
-    port: 56972
-    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: http
-  - name: 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-    type: vmess
-    server: v35.hdacd.com
-    port: 30835
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港 - undefinedms
-    type: vmess
-    server: v10.hdacd.com
-    port: 30807
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇺🇸_US_美国 - undefinedms
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
 proxy-groups:
   - name: Auto Select
     type: url-test
@@ -662,6 +662,8 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -669,8 +671,12 @@ proxy-groups:
       - 🇭🇰_香港_153 - undefinedms
       - 🏳️_未知_399 - undefinedms
       - 🇭🇰_香港_400 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -707,12 +713,6 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
     url: http://www.gstatic.com/generate_204
     interval: 300
   - name: Proxy
@@ -722,6 +722,8 @@ proxy-groups:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
+      - 🇺🇸US_7|3.3MB/s - undefinedms
       - 🇭🇰_香港_142 - undefinedms
       - 🇭🇰_香港_144 - undefinedms
       - 🇺🇸_美国_147 - undefinedms
@@ -729,8 +731,12 @@ proxy-groups:
       - 🇭🇰_香港_153 - undefinedms
       - 🏳️_未知_399 - undefinedms
       - 🇭🇰_香港_400 - undefinedms
-      - 🇺🇸US_2|2.6MB/s - undefinedms
-      - 🇺🇸US_6|1.7MB/s - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
+      - 🇭🇰_HK_中国香港 - undefinedms
+      - 🇺🇸_US_美国 - undefinedms
+      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -767,11 +773,5 @@ proxy-groups:
       - 🇺🇸_US_美国_11 - undefinedms
       - 🇺🇸_US_美国_12 - undefinedms
       - 🇺🇸_US_美国_13 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 - undefinedms
-      - 🇭🇰_HK_中国香港 - undefinedms
-      - 🇺🇸_US_美国 - undefinedms
-      - 🇮🇩_ID_印度尼西亚->🇬🇧_GB_英国 - undefinedms
 rules:
   - MATCH,Proxy
