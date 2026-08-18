@@ -18,15 +18,6 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
-  - name: 伊朗 V2CROSS.COM - undefinedms
-    type: vmess
-    server: ar.paydar.site
-    port: 9443
-    uuid: 0f6d91ec-0c88-45f9-b359-1520d7b30e66
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -53,6 +44,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 英国 V2CROSS.COM - undefinedms
+    type: vmess
+    server: planb.mojcn.com.linuxlh.xin
+    port: 16632
+    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   - name: 🇨🇳_中国_72 - undefinedms
     type: vmess
     server: v24.hdacd.com
@@ -115,19 +119,28 @@ proxies:
       path: /github.com/Alvin9999-newpac/fanqiang
       headers:
         Host: 2001:bc8:32d7:1a9::2
-  - name: 🇭🇰HK_3|2.3MB/s - undefinedms
+  - name: 🇩🇪DE_1|1.2MB/s - undefinedms
     type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16632
-    uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+    server: 68.183.209.180
+    port: 80
+    uuid: d5121154-ced6-460d-a9fd-5892027ab4a0
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /
+      path: /graphql
       headers:
-        Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+        Host: 68.183.209.180
+  - name: 🇭🇰HK_6|3.1MB/s - undefinedms
+    type: vmess
+    server: 366-1095.rabbitpro-in-3.com
+    port: 29008
+    uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -655,16 +668,17 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇨🇳_中国_72 - undefinedms
       - 🇨🇳_中国_77 - undefinedms
       - 🇺🇸_美国_78 - undefinedms
       - 🇨🇳_中国_81 - undefinedms
       - 🇫🇷_法国_188 - undefinedms
       - 🇫🇷_法国_189 - undefinedms
-      - 🇭🇰HK_3|2.3MB/s - undefinedms
+      - 🇩🇪DE_1|1.2MB/s - undefinedms
+      - 🇭🇰HK_6|3.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -714,16 +728,17 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 伊朗 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 英国 V2CROSS.COM - undefinedms
       - 🇨🇳_中国_72 - undefinedms
       - 🇨🇳_中国_77 - undefinedms
       - 🇺🇸_美国_78 - undefinedms
       - 🇨🇳_中国_81 - undefinedms
       - 🇫🇷_法国_188 - undefinedms
       - 🇫🇷_法国_189 - undefinedms
-      - 🇭🇰HK_3|2.3MB/s - undefinedms
+      - 🇩🇪DE_1|1.2MB/s - undefinedms
+      - 🇭🇰HK_6|3.1MB/s - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
