@@ -5,6 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -31,45 +44,41 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇺🇸US_2|2.8MB/s - undefinedms
+  - name: 🇭🇰HK_1|3.1MB/s - undefinedms
     type: vmess
     server: node.socks5.kdns.fr
     port: 443
-    uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
+    uuid: 3d6fb203-616e-4bb2-851b-e37a0903a4bc
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
+      path: /3d6fb203-616e-4bb2-851b-e37a0903a4bc-vm
       headers:
-        Host: chest-own-llp-collections.trycloudflare.com
-  - name: 🇺🇸US_4|3.2MB/s - undefinedms
+        Host: suspected-confirmed-origin-pocket.trycloudflare.com
+  - name: 🇺🇸US_2|1.2MB/s - undefinedms
     type: vmess
-    server: planb.mojcn.com.linuxlh.xin
-    port: 16648
-    uuid: b5f7ad86-9e40-4684-98f9-83f8136a1054
+    server: node.socks5.kdns.fr
+    port: 443
+    uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+      headers:
+        Host: booth-moreover-framework-thereafter.trycloudflare.com
+  - name: 🇺🇸US_5|4.2MB/s - undefinedms
+    type: vmess
+    server: 38.246.226.240
+    port: 52080
+    uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: eeee7339c9f412913069ff64b12fb71f.mobgslb.tbcache.com
+    network: tcp
   - name: 🇮🇷_伊朗_97 - undefinedms
     type: vmess
     server: trf-nld.ip-static.com
@@ -748,11 +757,12 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_2|2.8MB/s - undefinedms
-      - 🇺🇸US_4|3.2MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇭🇰HK_1|3.1MB/s - undefinedms
+      - 🇺🇸US_2|1.2MB/s - undefinedms
+      - 🇺🇸US_5|4.2MB/s - undefinedms
       - 🇮🇷_伊朗_97 - undefinedms
       - 🏳️_未知_121 - undefinedms
       - 🏳️_未知_122 - undefinedms
@@ -813,11 +823,12 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇺🇸US_2|2.8MB/s - undefinedms
-      - 🇺🇸US_4|3.2MB/s - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 🇭🇰HK_1|3.1MB/s - undefinedms
+      - 🇺🇸US_2|1.2MB/s - undefinedms
+      - 🇺🇸US_5|4.2MB/s - undefinedms
       - 🇮🇷_伊朗_97 - undefinedms
       - 🏳️_未知_121 - undefinedms
       - 🏳️_未知_122 - undefinedms
