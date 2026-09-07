@@ -151,32 +151,24 @@ proxies:
       path: /vmess-ws
       headers:
         Host: 78.17.71.236
-  - name: 🇭🇰HK_2|1.2MB/s - undefinedms
+  - name: 🇨🇳_CN_中国 - undefinedms
     type: vmess
-    server: m.cnmjin.net
-    port: 16632
-    uuid: 21af4a11-cf99-4370-bdd7-8a50cd0c6c49
-    alterId: 0
+    server: 112.132.215.108
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e176d51869ea80390a96391ec8361f3f.mobgslb.tbcache.com
-  - name: 🇺🇸US_1|2.0MB/s - undefinedms
+    network: tcp
+  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
     type: vmess
-    server: planb.mojcn.com
-    port: 16648
-    uuid: 21af4a11-cf99-4370-bdd7-8a50cd0c6c49
-    alterId: 0
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: e176d51869ea80390a96391ec8361f3f.mobgslb.tbcache.com
+    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -502,24 +494,6 @@ proxies:
       path: github.com/Alvin9999
       headers:
         Host: e5.808075.xyz
-  - name: 🇨🇳_CN_中国 - undefinedms
-    type: vmess
-    server: 112.132.215.108
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.26.0.206
@@ -681,8 +655,8 @@ proxy-groups:
       - 🇭🇰_香港_58 - undefinedms
       - 🇳🇱_荷兰_155 - undefinedms
       - 🇳🇱_荷兰_200 - undefinedms
-      - 🇭🇰HK_2|1.2MB/s - undefinedms
-      - 🇺🇸US_1|2.0MB/s - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -708,8 +682,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
@@ -741,8 +713,8 @@ proxy-groups:
       - 🇭🇰_香港_58 - undefinedms
       - 🇳🇱_荷兰_155 - undefinedms
       - 🇳🇱_荷兰_200 - undefinedms
-      - 🇭🇰HK_2|1.2MB/s - undefinedms
-      - 🇺🇸US_1|2.0MB/s - undefinedms
+      - 🇨🇳_CN_中国 - undefinedms
+      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -768,8 +740,6 @@ proxy-groups:
       - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_21 - undefinedms
       - 🇺🇸_US_美国_22 - undefinedms
-      - 🇨🇳_CN_中国 - undefinedms
-      - 🇭🇰_HK_中国香港->🇬🇧_GB_英国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_4 - undefinedms
       - 🇬🇧_GB_英国 - undefinedms
