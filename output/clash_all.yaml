@@ -18,6 +18,15 @@ proxies:
       path: /github.com/Alvin9999
       headers:
         Host: ip18.6929198.xyz
+  - name: 加拿大 V2CROSS.COM - undefinedms
+    type: vmess
+    server: pori.cjlife.ir
+    port: 110
+    uuid: 0accd97e-a16c-4d4f-b19a-883f7ea0f484
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -584,6 +593,7 @@ proxy-groups:
     type: url-test
     proxies:
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 加拿大 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇭🇰_香港_23 - undefinedms
@@ -636,6 +646,7 @@ proxy-groups:
     proxies:
       - Auto Select
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 加拿大 V2CROSS.COM - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
       - 🇭🇰_香港_23 - undefinedms
