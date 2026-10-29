@@ -31,6 +31,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 免费VPN：tt.vg/FJOE2Mm - undefinedms
     type: vmess
     server: 129.146.143.80
@@ -386,37 +399,6 @@ proxies:
     server: ww11.levikogjgfdd.ir
     port: 18000
     uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_2|1.1MB/s - undefinedms
-    type: vmess
-    server: 206.237.11.17
-    port: 44441
-    uuid: de4e0335-2a3b-4006-d746-c939fa85fdc3
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
-  - name: 🇭🇰HK_3|1.5MB/s - undefinedms
-    type: vmess
-    server: 206.237.11.17
-    port: 8080
-    uuid: edcf3108-da2b-45c8-a852-a7e58dd55a43
     alterId: 0
     cipher: auto
     tls: false
@@ -917,6 +899,7 @@ proxy-groups:
     proxies:
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
       - 🇸🇬_新加坡 - undefinedms
       - 🇰🇷_韩国 - undefinedms
@@ -952,9 +935,6 @@ proxy-groups:
       - 🇩🇪_德国 (35) - undefinedms
       - 🇺🇸_美国 (81) - undefinedms
       - 🇸🇬_新加坡 (16) - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_2|1.1MB/s - undefinedms
-      - 🇭🇰HK_3|1.5MB/s - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -1001,6 +981,7 @@ proxy-groups:
       - Auto Select
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
       - 🇸🇬_新加坡 - undefinedms
       - 🇰🇷_韩国 - undefinedms
@@ -1036,9 +1017,6 @@ proxy-groups:
       - 🇩🇪_德国 (35) - undefinedms
       - 🇺🇸_美国 (81) - undefinedms
       - 🇸🇬_新加坡 (16) - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_2|1.1MB/s - undefinedms
-      - 🇭🇰HK_3|1.5MB/s - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
