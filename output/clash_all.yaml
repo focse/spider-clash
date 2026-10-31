@@ -5,19 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 美国 CloudFlare节点 - undefinedms
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
     type: vmess
-    server: 172.67.187.145
-    port: 80
-    uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /ws?ed=2048
+      path: /github.com/Alvin9999
       headers:
-        Host: vmess.lbw666.dpdns.org
+        Host: ip18.6929198.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,19 +44,15 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+  - name: 波兰 V2CROSS.COM - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: aesafdfaesfv.asopardaz.ir
+    port: 80
+    uuid: ce71b8c2-54a4-4dd0-b780-a4521b16f2fd
     alterId: 0
     cipher: auto
     tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
+    network: tcp
   - name: 🇹🇼_TW_中国台湾 - undefinedms
     type: vmess
     server: 654168416355441.oylfmxz.cn
@@ -551,10 +547,10 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - 美国 CloudFlare节点 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 波兰 V2CROSS.COM - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
@@ -599,10 +595,10 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - 美国 CloudFlare节点 - undefinedms
-      - TG-@vvkj11 - undefinedms
-      - TG-@vvkj11 - undefinedms
       - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - TG-@vvkj11 - undefinedms
+      - 波兰 V2CROSS.COM - undefinedms
       - 🇹🇼_TW_中国台湾 - undefinedms
       - 🇨🇳_CN_中国 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
