@@ -5,15 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: HK VMESS-03 | free-nodes - undefinedms
-    type: vmess
-    server: dog-hk.kunlun01dns.com
-    port: 21020
-    uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -40,28 +31,6 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-    type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: ws
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        Host: ip18.6929198.xyz
-  - name: 🇭🇰HK_1|4.1MB/s - undefinedms
-    type: vmess
-    server: dog-hk.kunlun01dns.com
-    port: 21020
-    uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-    alterId: 0
-    cipher: auto
-    tls: false
-    network: tcp
   - name: 免费VPN：tt.vg/FJOE2Mm - undefinedms
     type: vmess
     server: 47.244.120.197
@@ -556,6 +525,19 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 🇺🇸_US_美国_1 - undefinedms
     type: vmess
     server: 104.18.114.188
@@ -1080,11 +1062,8 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - HK VMESS-03 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|4.1MB/s - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
       - 🇭🇰_香港 (10) - undefinedms
       - 🇭🇰_香港 (11) - undefinedms
@@ -1131,6 +1110,7 @@ proxy-groups:
       - 🇭🇰_香港 (8) - undefinedms
       - 🇩🇪_德国 (28) - undefinedms
       - 🇨🇭_瑞士 (6) - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
@@ -1177,11 +1157,8 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - HK VMESS-03 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
-      - 🇭🇰HK_1|4.1MB/s - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
       - 🇭🇰_香港 (10) - undefinedms
       - 🇭🇰_香港 (11) - undefinedms
@@ -1228,6 +1205,7 @@ proxy-groups:
       - 🇭🇰_香港 (8) - undefinedms
       - 🇩🇪_德国 (28) - undefinedms
       - 🇨🇭_瑞士 (6) - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 🇺🇸_US_美国_1 - undefinedms
       - 🇺🇸_US_美国_2 - undefinedms
       - 🇺🇸_US_美国_3 - undefinedms
