@@ -5,19 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US VMESS-14 | free-nodes - undefinedms
-    type: vmess
-    server: 192.74.236.148
-    port: 30004
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: /path/1733477783705
-      headers:
-        Host: www.91334565.xyz
   - name: TG-@vvkj11 - undefinedms
     type: vmess
     server: 23.227.39.11
@@ -44,6 +31,19 @@ proxies:
       path: /HzuOihB6/
       headers:
         Host: 109.104.152.220
+  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+    type: vmess
+    server: 45.80.111.9
+    port: 2082
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        Host: ip18.6929198.xyz
   - name: 每天更新，请加电报群防止失联 - undefinedms
     type: vmess
     server: 156.245.232.239
@@ -442,32 +442,32 @@ proxies:
     cipher: auto
     tls: false
     network: tcp
-  - name: 🇳🇱NL_3|1.0MB/s - undefinedms
+  - name: 🇺🇸US_2|3.3MB/s - undefinedms
     type: vmess
-    server: mort5edf-production.up.railway.app
-    port: 443
-    uuid: d02593b7-db22-4f23-82f2-1e78eb7e4b89
-    alterId: 0
+    server: 192.74.236.148
+    port: 30004
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: /api/yBg7Aw
+      path: /path/1733477783705
       headers:
-        Host: mort5edf-production.up.railway.app
-  - name: 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+        Host: www.91334565.xyz
+  - name: 🇹🇼TW_1|4.6MB/s - undefinedms
     type: vmess
-    server: 45.80.111.9
-    port: 2082
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    server: dp8yk.xiaoyan.io
+    port: 16616
+    uuid: 904f0569-8695-466f-97cf-0de2face1b46
     alterId: 0
     cipher: auto
     tls: false
     network: ws
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /
       headers:
-        Host: ip18.6929198.xyz
+        Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
   - name: 🇺🇸_US_美国_IPV4 (2) - undefinedms
     type: vmess
     server: 172.66.0.1
@@ -992,9 +992,9 @@ proxy-groups:
   - name: Auto Select
     type: url-test
     proxies:
-      - US VMESS-14 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：t.me/vvkj11 - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
@@ -1033,8 +1033,8 @@ proxy-groups:
       - 🇯🇵_日本 (2) - undefinedms
       - 🇩🇪_德国 (26) - undefinedms
       - 🇲🇾_马来西亚 (2) - undefinedms
-      - 🇳🇱NL_3|1.0MB/s - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇺🇸US_2|3.3MB/s - undefinedms
+      - 🇹🇼TW_1|4.6MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
@@ -1081,9 +1081,9 @@ proxy-groups:
     type: select
     proxies:
       - Auto Select
-      - US VMESS-14 | free-nodes - undefinedms
       - TG-@vvkj11 - undefinedms
       - TG-@vvkj11 - undefinedms
+      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
       - 每天更新，请加电报群防止失联 - undefinedms
       - 电报群：t.me/vvkj11 - undefinedms
       - 免费VPN：tt.vg/FJOE2Mm - undefinedms
@@ -1122,8 +1122,8 @@ proxy-groups:
       - 🇯🇵_日本 (2) - undefinedms
       - 🇩🇪_德国 (26) - undefinedms
       - 🇲🇾_马来西亚 (2) - undefinedms
-      - 🇳🇱NL_3|1.0MB/s - undefinedms
-      - 🇫🇷_FR_法国->🇨🇦_CA_加拿大 - undefinedms
+      - 🇺🇸US_2|3.3MB/s - undefinedms
+      - 🇹🇼TW_1|4.6MB/s - undefinedms
       - 🇺🇸_US_美国_IPV4 (2) - undefinedms
       - 🇺🇸 机场推荐:dafei.de 美国 15_IPV4 - undefinedms
       - '@DeltaKroneckerGithub_3021_IPV4 - undefinedms'
